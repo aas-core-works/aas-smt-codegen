@@ -1,0 +1,7 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://admin-shell.io/idta/SubmodelTemplate/DigitalNameplate/3/0/value-only-schema.json",
+  "title": "Digital Nameplate Value-Only Schema",
+  "description": "JSON schema for value-only representation of IDTA Digital Nameplate 3.0 submodel template",
+  "$ref": "#/$defs/Nameplate"
+}

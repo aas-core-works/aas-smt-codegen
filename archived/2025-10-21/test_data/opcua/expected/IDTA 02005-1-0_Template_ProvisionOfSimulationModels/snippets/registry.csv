@@ -1,0 +1,17 @@
+Semantic ID,Browse Name,Namespace
+https://admin-shell.io/idta/SimulationModels/SimulationModels/1/0,SimulationModels,https://admin-shell.io/idta/SimulationModels/1/0
+https://admin-shell.io/idta/SimulationModels/SimulationModel/1/0,SimulationModel,https://admin-shell.io/idta/SimulationModels/1/0
+https://admin-shell.io/idta/SimulationModels/SimPurpose/1/0,SimPurpose,https://admin-shell.io/idta/SimulationModels/1/0
+https://admin-shell.io/idta/SimulationModels/Environment/1/0,Environment,https://admin-shell.io/idta/SimulationModels/1/0
+https://admin-shell.io/idta/SimulationModels/SimulationTool/1/0,SimulationTool,https://admin-shell.io/idta/SimulationModels/1/0
+https://admin-shell.io/idta/SimulationModels/SolverAndTolerances/1/0,SolverAndTolerances,https://admin-shell.io/idta/SimulationModels/1/0
+https://admin-shell.io/idta/SimulationModels/TestedToolSolverAlgorithm/1/0,TestedToolSolverAlgorithm,https://admin-shell.io/idta/SimulationModels/1/0
+https://admin-shell.io/idta/SimulationModels/ModelFile/1/0,ModelFile,https://admin-shell.io/idta/SimulationModels/1/0
+https://admin-shell.io/idta/SimulationModels/ModelFileVersion/1/0,ModelFileVersion,https://admin-shell.io/idta/SimulationModels/1/0
+https://admin-shell.io/idta/SimulationModels/SimModManufacturerInformation/1/0,SimModManufacturerInformation,https://admin-shell.io/idta/SimulationModels/1/0
+0173-1#02-AAQ836#005,Email,https://admin-shell.io/idta/ContactInformation/1/0
+https://admin-shell.io/zvei/nameplate/1/0/ContactInformations/ContactInformation/Phone,Phone,https://admin-shell.io/idta/ContactInformation/1/0
+https://admin-shell.io/idta/SimulationModels/Ports/1/0,Ports,https://admin-shell.io/idta/SimulationModels/1/0
+https://admin-shell.io/idta/SimulationModels/PortsConnector/1/0,PortsConnector,https://admin-shell.io/idta/SimulationModels/1/0
+https://admin-shell.io/idta/SimulationModels/Variable/1/0,Variable,https://admin-shell.io/idta/SimulationModels/1/0
+https://admin-shell.io/idta/SimulationModels/BinaryConnector/1/0,BinaryConnector,https://admin-shell.io/idta/SimulationModels/1/0

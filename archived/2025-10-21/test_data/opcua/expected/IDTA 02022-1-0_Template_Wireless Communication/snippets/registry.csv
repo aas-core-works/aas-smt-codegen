@@ -1,0 +1,20 @@
+Semantic ID,Browse Name,Namespace
+https://admin-shell.io/idta/SubmodelTemplate/WirelessCommunication/1/0,WirelessCommunication,https://admin-shell.io/idta/WirelessCommunication/1/0
+https://admin-shell.io/idta/WirelessCommunicationFunction/1/0,WirelessCommunicationFunction,https://admin-shell.io/idta/WirelessCommunication/1/0
+https://admin-shell.io/idta/WirelessCommunication/WirelessCommunicationFunction/MediumAccess/1/0,MediumAccess,https://admin-shell.io/idta/WirelessCommunication/1/0
+https://admin-shell.io/idta/WirelessCommunication/WirelessCommunicationFunction/MediumAccess/SlotConfiguration/1/0,SlotConfiguration,https://admin-shell.io/idta/WirelessCommunication/1/0
+https://admin-shell.io/idta/WirelessCommunication/RadioFrequency/1/0,RadioFrequency,https://admin-shell.io/idta/WirelessCommunication/1/0
+https://admin-shell.io/idta/WirelessCommunication/RadioFrequency/FrequencyBand/1/0,FrequencyBand,https://admin-shell.io/idta/WirelessCommunication/1/0
+https://admin-shell.io/idta/WirelessCommunication/RadioFrequency/RadioFrequencyChannel/1/0,RadioFrequencyChannel,https://admin-shell.io/idta/WirelessCommunication/1/0
+https://admin-shell.io/idta/WirelessCommunication/ReceptionQuality/1/0,ReceptionQualityIndicator,https://admin-shell.io/idta/WirelessCommunication/1/0
+https://admin-shell.io/idta/WirelessCommunication/OutputPower/1/0,OutputPower,https://admin-shell.io/idta/WirelessCommunication/1/0
+https://admin-shell.io/idta/WirelessCommunication/License/1/0,License,https://admin-shell.io/idta/WirelessCommunication/1/0
+https://admin-shell.io/idta/WirelessCommunication/License/Applicant/1/0,Applicant,https://admin-shell.io/idta/WirelessCommunication/1/0
+https://admin-shell.io/idta/WirelessCommunication/License/Frequency/1/0,Frequency,https://admin-shell.io/idta/WirelessCommunication/1/0
+https://admin-shell.io/idta/WirelessCommunication/License/Operation/1/0,Operation,https://admin-shell.io/idta/WirelessCommunication/1/0
+https://admin-shell.io/idta/WirelessCommunication/License/FixedStations/1/0,FixedStation,https://admin-shell.io/idta/WirelessCommunication/1/0
+https://admin-shell.io/idta/WirelessCommunication/License/MobileStations/1/0,MobileStation,https://admin-shell.io/idta/WirelessCommunication/1/0
+https://admin-shell.io/idta/WirelessCommunication/License/TechnicalData/1/0,LicenseAcquisitionTechnicalData,https://admin-shell.io/idta/WirelessCommunication/1/0
+https://admin-shell.io/idta/WirelessCommunication/License/Allocation/1/0,Allocation,https://admin-shell.io/idta/WirelessCommunication/1/0
+https://admin-shell.io/idta/WirelessCommunication/Hardware/1/0,Hardware,https://admin-shell.io/idta/WirelessCommunication/1/0
+https://admin-shell.io/idta/WirelessCommunication/Authentication/1/0,Authentication,https://admin-shell.io/idta/WirelessCommunication/1/0

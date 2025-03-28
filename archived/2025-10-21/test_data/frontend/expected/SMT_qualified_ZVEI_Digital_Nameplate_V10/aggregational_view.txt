@@ -1,0 +1,81 @@
+Entity 'https://admin-shell.io/zvei/nameplate/1/0/Nameplate'
+  'ManufacturerName' One
+  {"category": "PARAMETER", "idShort": "ManufacturerName", "modelType": "MultiLanguageProperty", "qualifiers": [{"type": "Multiplicity", "value": "One", "valueType": "xs:string"}, {"type": "FormInfo", "value": "Legally valid designation of the natural or judicial person which is directly responsible for the design, production, packaging and labeling of a product in respect to its being brought into circulation.", "valueType": "xs:string"}], "semanticId": {"keys": [{"type": "GlobalReference", "value": "0173-1#02-AAO677#002"}], "type": "ExternalReference"}}
+  'ManufacturerProductDesignation' One
+  {"category": "PARAMETER", "idShort": "ManufacturerProductDesignation", "modelType": "MultiLanguageProperty", "qualifiers": [{"type": "Multiplicity", "value": "One", "valueType": "xs:string"}, {"type": "FormInfo", "value": "Short description of the product (short text).", "valueType": "xs:string"}], "semanticId": {"keys": [{"type": "GlobalReference", "value": "0173-1#02-AAW338#001"}], "type": "ExternalReference"}}
+  Address One 0173-1#02-AAQ832#005
+  'ManufacturerProductFamily' One
+  {"category": "PARAMETER", "idShort": "ManufacturerProductFamily", "modelType": "MultiLanguageProperty", "qualifiers": [{"type": "Multiplicity", "value": "One", "valueType": "xs:string"}, {"type": "FormInfo", "value": "2nd level of a 3 level manufacturer specific product hierarchy.", "valueType": "xs:string"}], "semanticId": {"keys": [{"type": "GlobalReference", "value": "0173-1#02-AAU731#001"}], "type": "ExternalReference"}}
+  'SerialNumber' ZeroToOne
+  {"category": "PARAMETER", "idShort": "SerialNumber", "modelType": "Property", "qualifiers": [{"type": "Multiplicity", "value": "ZeroToOne", "valueType": "xs:string"}, {"type": "FormInfo", "value": "Unique combination of numbers and letters used to identify the device once it has been manufactured.", "valueType": "xs:string"}], "semanticId": {"keys": [{"type": "GlobalReference", "value": "0173-1#02-AAM556#002"}], "type": "ExternalReference"}, "valueType": "xs:string"}
+  'YearOfConstruction' One
+  {"category": "PARAMETER", "idShort": "YearOfConstruction", "modelType": "Property", "qualifiers": [{"type": "Multiplicity", "value": "One", "valueType": "xs:string"}, {"type": "FormInfo", "value": "Year as completion date of object.", "valueType": "xs:string"}], "semanticId": {"keys": [{"type": "GlobalReference", "value": "0173-1#02-AAP906#001"}], "type": "ExternalReference"}, "valueType": "xs:string"}
+  Markings ZeroToOne https://admin-shell.io/zvei/nameplate/1/0/Nameplate/Markings
+  AssetSpecificProperties ZeroToOne https://admin-shell.io/zvei/nameplate/1/0/Nameplate/AssetSpecificProperties
+---
+Entity '0173-1#02-AAQ832#005'
+  'Department' ZeroToOne
+  {"category": "VARIABLE", "idShort": "Department", "modelType": "MultiLanguageProperty", "qualifiers": [{"type": "Multiplicity", "value": "ZeroToOne", "valueType": "xs:string"}, {"type": "FormInfo", "value": "Administrative section within an organisation where a business partner is located.", "valueType": "xs:string"}], "semanticId": {"keys": [{"type": "GlobalReference", "value": "0173-1#02-AAO127#003"}], "type": "ExternalReference"}}
+  'Street' One
+  {"category": "PARAMETER", "idShort": "Street", "modelType": "MultiLanguageProperty", "qualifiers": [{"type": "Multiplicity", "value": "One", "valueType": "xs:string"}, {"type": "FormInfo", "value": "Street name and house number.", "valueType": "xs:string"}], "semanticId": {"keys": [{"type": "GlobalReference", "value": "0173-1#02-AAO128#002"}], "type": "ExternalReference"}}
+  'Zipcode' One
+  {"category": "VARIABLE", "idShort": "Zipcode", "modelType": "MultiLanguageProperty", "qualifiers": [{"type": "Multiplicity", "value": "One", "valueType": "xs:string"}, {"type": "FormInfo", "value": "ZIP code of address.", "valueType": "xs:string"}], "semanticId": {"keys": [{"type": "GlobalReference", "value": "0173-1#02-AAO129#002"}], "type": "ExternalReference"}}
+  'POBox' ZeroToOne
+  {"category": "VARIABLE", "idShort": "POBox", "modelType": "MultiLanguageProperty", "qualifiers": [{"type": "Multiplicity", "value": "ZeroToOne", "valueType": "xs:string"}, {"type": "FormInfo", "value": "P.O. box number.", "valueType": "xs:string"}], "semanticId": {"keys": [{"type": "GlobalReference", "value": "0173-1#02-AAO130#002"}], "type": "ExternalReference"}}
+  'ZipCodeOfPOBox' ZeroToOne
+  {"category": "VARIABLE", "idShort": "ZipCodeOfPOBox", "modelType": "MultiLanguageProperty", "qualifiers": [{"type": "Multiplicity", "value": "ZeroToOne", "valueType": "xs:string"}, {"type": "FormInfo", "value": "ZIP code of P.O. box address.", "valueType": "xs:string"}], "semanticId": {"keys": [{"type": "GlobalReference", "value": "0173-1#02-AAO131#002"}], "type": "ExternalReference"}}
+  'CityTown' One
+  {"category": "VARIABLE", "idShort": "CityTown", "modelType": "MultiLanguageProperty", "qualifiers": [{"type": "Multiplicity", "value": "One", "valueType": "xs:string"}, {"type": "FormInfo", "value": "Town or city name.", "valueType": "xs:string"}], "semanticId": {"keys": [{"type": "GlobalReference", "value": "0173-1#02-AAO132#002"}], "type": "ExternalReference"}}
+  'StateCounty' ZeroToOne
+  {"category": "VARIABLE", "idShort": "StateCounty", "modelType": "MultiLanguageProperty", "qualifiers": [{"type": "Multiplicity", "value": "ZeroToOne", "valueType": "xs:string"}, {"type": "FormInfo", "value": "Federal state; a part of a state.", "valueType": "xs:string"}], "semanticId": {"keys": [{"type": "GlobalReference", "value": "0173-1#02-AAO133#002"}], "type": "ExternalReference"}}
+  'NationalCode' One
+  {"category": "VARIABLE", "idShort": "NationalCode", "modelType": "MultiLanguageProperty", "qualifiers": [{"type": "Multiplicity", "value": "One", "valueType": "xs:string"}, {"type": "FormInfo", "value": "Country code defined according to DIN EN ISO 3166-1.", "valueType": "xs:string"}], "semanticId": {"keys": [{"type": "GlobalReference", "value": "0173-1#02-AAO134#002"}], "type": "ExternalReference"}}
+  'VATNumber' ZeroToOne
+  {"category": "VARIABLE", "idShort": "VATNumber", "modelType": "MultiLanguageProperty", "qualifiers": [{"type": "Multiplicity", "value": "ZeroToOne", "valueType": "xs:string"}, {"type": "FormInfo", "value": "VAT (value added tax) identification number of the business partner.", "valueType": "xs:string"}], "semanticId": {"keys": [{"type": "GlobalReference", "value": "0173-1#02-AAO135#002"}], "type": "ExternalReference"}}
+  'AddressRemarks' ZeroToOne
+  {"category": "VARIABLE", "idShort": "AddressRemarks", "modelType": "MultiLanguageProperty", "qualifiers": [{"type": "Multiplicity", "value": "ZeroToOne", "valueType": "xs:string"}, {"type": "FormInfo", "value": "Plain text characterizing address information for which there is no property.", "valueType": "xs:string"}], "semanticId": {"keys": [{"type": "GlobalReference", "value": "0173-1#02-AAO202#003"}], "type": "ExternalReference"}}
+  'AddressOfAdditionalLink' ZeroToOne
+  {"category": "VARIABLE", "idShort": "AddressOfAdditionalLink", "modelType": "Property", "qualifiers": [{"type": "Multiplicity", "value": "ZeroToOne", "valueType": "xs:string"}, {"type": "FormInfo", "value": "Web site address where information about the product or contact is given.", "valueType": "xs:string"}], "semanticId": {"keys": [{"type": "GlobalReference", "value": "0173-1#02-AAQ326#002"}], "type": "ExternalReference"}, "valueType": "xs:string"}
+  Phone ZeroToMany 0173-1#02-AAQ833#005
+  Fax ZeroToMany 0173-1#02-AAQ834#005
+  Email ZeroToMany 0173-1#02-AAQ836#005
+---
+Entity '0173-1#02-AAQ833#005'
+  'TelephoneNumber' One
+  {"category": "VARIABLE", "idShort": "TelephoneNumber", "modelType": "MultiLanguageProperty", "qualifiers": [{"type": "Multiplicity", "value": "One", "valueType": "xs:string"}, {"type": "FormInfo", "value": "Complete telephone number to be called to reach a business partner.", "valueType": "xs:string"}], "semanticId": {"keys": [{"type": "GlobalReference", "value": "0173-1#02-AAO136#002"}], "type": "ExternalReference"}}
+  'TypeOfTelephone' ZeroToOne
+  {"category": "VARIABLE", "idShort": "TypeOfTelephone", "modelType": "Property", "qualifiers": [{"type": "Multiplicity", "value": "ZeroToOne", "valueType": "xs:string"}, {"type": "FormInfo", "value": "Characterization of a telephone according to its location or usage.", "valueType": "xs:string"}, {"type": "FormChoices", "value": "Office;Office mobile;Secretary;Substitute;Home;Private mobile", "valueType": "xs:string"}], "semanticId": {"keys": [{"type": "GlobalReference", "value": "0173-1#02-AAO137#003"}], "type": "ExternalReference"}, "valueType": "xs:string"}
+---
+Entity '0173-1#02-AAQ834#005'
+  'FaxNumber' One
+  {"category": "VARIABLE", "idShort": "FaxNumber", "modelType": "MultiLanguageProperty", "qualifiers": [{"type": "Multiplicity", "value": "One", "valueType": "xs:string"}, {"type": "FormInfo", "value": "Complete telephone number to be called to reach a business partner's fax machine.", "valueType": "xs:string"}], "semanticId": {"keys": [{"type": "GlobalReference", "value": "0173-1#02-AAO195#002"}], "type": "ExternalReference"}}
+  'TypeOfFaxNumber' ZeroToOne
+  {"category": "VARIABLE", "idShort": "TypeOfFaxNumber", "modelType": "Property", "qualifiers": [{"type": "Multiplicity", "value": "ZeroToOne", "valueType": "xs:string"}, {"type": "FormInfo", "value": "Characterization of the fax according its location or usage.", "valueType": "xs:string"}, {"type": "FormChoices", "value": "Office;Secretary;Home", "valueType": "xs:string"}], "semanticId": {"keys": [{"type": "GlobalReference", "value": "0173-1#02-AAO196#003"}], "type": "ExternalReference"}, "valueType": "xs:string"}
+---
+Entity '0173-1#02-AAQ836#005'
+  'EmailAddress' One
+  {"category": "VARIABLE", "idShort": "EmailAddress", "modelType": "Property", "qualifiers": [{"type": "Multiplicity", "value": "One", "valueType": "xs:string"}, {"type": "FormInfo", "value": "Electronic mail address of a business partner.", "valueType": "xs:string"}], "semanticId": {"keys": [{"type": "GlobalReference", "value": "0173-1#02-AAO198#002"}], "type": "ExternalReference"}, "valueType": "xs:string"}
+  'PublicKey' ZeroToOne
+  {"category": "VARIABLE", "idShort": "PublicKey", "modelType": "MultiLanguageProperty", "qualifiers": [{"type": "Multiplicity", "value": "ZeroToOne", "valueType": "xs:string"}, {"type": "FormInfo", "value": "Public part of an unsymmetrical key pair to sign or encrypt text or messages.", "valueType": "xs:string"}], "semanticId": {"keys": [{"type": "GlobalReference", "value": "0173-1#02-AAO200#002"}], "type": "ExternalReference"}}
+  'TypeOfEmailAddress' ZeroToOne
+  {"category": "VARIABLE", "idShort": "TypeOfEmailAddress", "modelType": "Property", "qualifiers": [{"type": "Multiplicity", "value": "ZeroToOne", "valueType": "xs:string"}, {"type": "FormInfo", "value": "Characterization of an e-mail address according to its location or usage.", "valueType": "xs:string"}, {"type": "FormChoices", "value": "Office;Secretary;Substitute;Home", "valueType": "xs:string"}], "semanticId": {"keys": [{"type": "GlobalReference", "value": "0173-1#02-AAO199#003"}], "type": "ExternalReference"}, "valueType": "xs:string"}
+  'TypeOfPublickKey' ZeroToOne
+  {"category": "VARIABLE", "idShort": "TypeOfPublickKey", "modelType": "MultiLanguageProperty", "qualifiers": [{"type": "Multiplicity", "value": "ZeroToOne", "valueType": "xs:string"}, {"type": "FormInfo", "value": "Characterization of a public key according to its encryption process.", "valueType": "xs:string"}], "semanticId": {"keys": [{"type": "GlobalReference", "value": "0173-1#02-AAO201#002"}], "type": "ExternalReference"}}
+---
+Entity 'https://admin-shell.io/zvei/nameplate/1/0/Nameplate/Markings'
+  Marking OneToMany https://admin-shell.io/zvei/nameplate/1/0/Nameplate/Markings/Marking
+---
+Entity 'https://admin-shell.io/zvei/nameplate/1/0/Nameplate/Markings/Marking'
+  'MarkingName' One
+  {"category": "VARIABLE", "idShort": "MarkingName", "modelType": "Property", "qualifiers": [{"type": "Multiplicity", "value": "One", "valueType": "xs:string"}, {"type": "FormInfo", "value": "Common name of the marking.", "valueType": "xs:string"}], "semanticId": {"keys": [{"type": "GlobalReference", "value": "https://admin-shell.io/zvei/nameplate/1/0/Nameplate/Markings/Marking/MarkingName"}], "type": "ExternalReference"}, "valueType": "xs:string"}
+  'MarkingFile' One
+  {"category": "VARIABLE", "contentType": "image/png", "idShort": "MarkingFile", "modelType": "File", "qualifiers": [{"type": "Multiplicity", "value": "One", "valueType": "xs:string"}, {"type": "FormInfo", "value": "Common picture or logo of the marking.", "valueType": "xs:string"}], "semanticId": {"keys": [{"type": "GlobalReference", "value": "https://admin-shell.io/zvei/nameplate/1/0/Nameplate/Markings/Marking/MarkingFile"}], "type": "ExternalReference"}}
+  'MarkingAdditionalText' ZeroToMany
+  {"category": "VARIABLE", "idShort": "MarkingAdditionalText", "modelType": "Property", "qualifiers": [{"type": "Multiplicity", "value": "ZeroToMany", "valueType": "xs:string"}, {"type": "FormInfo", "value": "Where applicable, additional information on the marking in plain text.", "valueType": "xs:string"}], "semanticId": {"keys": [{"type": "GlobalReference", "value": "https://admin-shell.io/zvei/nameplate/1/0/Nameplate/Markings/Marking/MarkingAdditionalText"}], "type": "ExternalReference"}, "valueType": "xs:string"}
+---
+Entity 'https://admin-shell.io/zvei/nameplate/1/0/Nameplate/AssetSpecificProperties'
+  GuidelineSpecificProperties OneToMany https://admin-shell.io/zvei/nameplate/1/0/Nameplate/AssetSpecificProperties/GuidelineSpecificProperties
+---
+Entity 'https://admin-shell.io/zvei/nameplate/1/0/Nameplate/AssetSpecificProperties/GuidelineSpecificProperties'
+  'GuidelineForConformityDeclaration' One
+  {"category": "VARIABLE", "idShort": "GuidelineForConformityDeclaration", "modelType": "Property", "qualifiers": [{"type": "Multiplicity", "value": "One", "valueType": "xs:string"}], "semanticId": {"keys": [{"type": "GlobalReference", "value": "0173-1#02-AAO856#002"}], "type": "ExternalReference"}, "valueType": "xs:string"}

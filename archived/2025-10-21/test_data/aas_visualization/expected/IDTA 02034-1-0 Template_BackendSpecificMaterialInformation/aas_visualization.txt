@@ -1,0 +1,19 @@
+Submodel - ID-short: 'BackendSpecificMaterialInformation' ID: 'https://example.com/ids/sm/8251_4151_4042_6668'
+└─ SubmodelElementCollection 'MaterialSystemProperties'
+   Semantic ID: https://admin-shell.io/idta/BackendSpecificMaterialInformation/MaterialSystemProperties/1/0
+   ├─ Property 'MaterialType'
+      Semantic ID: https://admin-shell.io/idta/BackendSpecificMaterialInformation/MaterialSystemProperties/MaterialType/1/0
+   ├─ MultiLanguageProperty 'BaseUnitOfMeasure'
+      Semantic ID: https://admin-shell.io/idta/BackendSpecificMaterialInformation/MaterialSystemProperties/BaseUnitOfMeasure/1/0
+   ├─ Property 'MaterialStatus'
+      Semantic ID: https://admin-shell.io/idta/BackendSpecificMaterialInformation/MaterialSystemProperties/MaterialStatus/1/0
+   ├─ Property 'Industry'
+      Semantic ID: https://admin-shell.io/idta/BackendSpecificMaterialInformation/MaterialSystemProperties/Industry/1/0https://admin-shell.io/idta/BackendSpecificMaterialInformation/MaterialSystemProperties/Industry/1/0
+   ├─ MultiLanguageProperty 'ProductName'
+      Semantic ID: https://admin-shell.io/idta/BackendSpecificMaterialInformation/MaterialSystemProperties/ProductName/1/0
+   ├─ Property 'MaterialNumber'
+      Semantic ID: https://admin-shell.io/idta/BackendSpecificMaterialInformation/MaterialSystemProperties/MaterialNumber/1/0
+   ├─ MultiLanguageProperty 'Description'
+      Semantic ID: https://admin-shell.io/idta/BackendSpecificMaterialInformation/MaterialSystemProperties/Description/1/0
+   └─ Property 'Plant'
+      Semantic ID: https://admin-shell.io/idta/BackendSpecificMaterialInformation/MaterialSystemProperties/Plant/1/0

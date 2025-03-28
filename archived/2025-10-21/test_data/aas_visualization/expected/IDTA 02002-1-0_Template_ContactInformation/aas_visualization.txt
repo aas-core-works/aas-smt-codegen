@@ -1,0 +1,109 @@
+Submodel - ID-short: 'ContactInformations' ID: 'https://admin-shell.io/idta/SubmodelTemplate/ContactInformation/1/0'
+└─ SubmodelElementCollection 'ContactInformation'
+   Semantic ID: https://admin-shell.io/zvei/nameplate/1/0/ContactInformations/ContactInformation
+   Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'OneToMany'}"]
+   ├─ Property 'RoleOfContactPerson'
+      Semantic ID: 0173-1#02-AAO204#003
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   ├─ MultiLanguageProperty 'NationalCode'
+      Semantic ID: 0173-1#02-AAO134#002
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   ├─ Property 'Language'
+      Semantic ID: https://admin-shell.io/zvei/nameplate/1/0/ContactInformations/ContactInformation/Language
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToMany'}"]
+   ├─ Property 'TimeZone'
+      Semantic ID: https://admin-shell.io/zvei/nameplate/1/0/ContactInformations/ContactInformation/TimeZone
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   ├─ MultiLanguageProperty 'CityTown'
+      Semantic ID: 0173-1#02-AAO132#002
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   ├─ MultiLanguageProperty 'Company'
+      Semantic ID: 0173-1#02-AAW001#001
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   ├─ MultiLanguageProperty 'Department'
+      Semantic ID: 0173-1#02-AAO127#003
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   ├─ SubmodelElementCollection 'Phone'
+      Semantic ID: https://admin-shell.io/zvei/nameplate/1/0/ContactInformations/ContactInformation/Phone
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+      ├─ MultiLanguageProperty 'TelephoneNumber'
+         Semantic ID: 0173-1#02-AAO136#002
+         Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'One'}"]
+      ├─ Property 'TypeOfTelephone'
+         Semantic ID: 0173-1#02-AAO137#003
+         Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+      └─ MultiLanguageProperty 'AvailableTime'
+         Semantic ID: https://admin-shell.io/zvei/nameplate/1/0/ContactInformations/ContactInformation/AvailableTime/
+         Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   ├─ SubmodelElementCollection 'Fax'
+      Semantic ID: 0173-1#02-AAQ834#005
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+      ├─ MultiLanguageProperty 'FaxNumber'
+         Semantic ID: 0173-1#02-AAO195#002
+         Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'One'}"]
+      └─ Property 'TypeOfFaxNumber'
+         Semantic ID: 0173-1#02-AAO196#003
+         Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   ├─ SubmodelElementCollection 'Email'
+      Semantic ID: 0173-1#02-AAQ836#005
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+      ├─ Property 'EmailAddress'
+         Semantic ID: 0173-1#02-AAO198#002
+         Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'One'}"]
+      ├─ MultiLanguageProperty 'PublicKey'
+         Semantic ID: 0173-1#02-AAO200#002
+         Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+      ├─ Property 'TypeOfEmailAddress'
+         Semantic ID: 0173-1#02-AAO199#003
+         Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+      └─ MultiLanguageProperty 'TypeOfPublicKey'
+         Semantic ID: 0173-1#02-AAO201#002
+         Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   ├─ SubmodelElementCollection 'IPCommunication__00__'
+      Semantic ID: https://admin-shell.io/zvei/nameplate/1/0/ContactInformations/IPCommunication
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToMany'}"]
+      ├─ Property 'AddressOfAdditionalLink'
+         Semantic ID: 0173-1#02-AAQ326#002
+         Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'One'}"]
+      ├─ Property 'TypeOfCommunication'
+         Semantic ID: https://admin-shell.io/zvei/nameplate/1/0/ ContactInformations/ContactInformation/IPCommunication/TypeOfCommunication
+         Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+      └─ MultiLanguageProperty 'AvailableTime'
+         Semantic ID: https://admin-shell.io/zvei/nameplate/1/0/ContactInformations/ContactInformation/AvailableTime/
+         Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   ├─ MultiLanguageProperty 'Street'
+      Semantic ID: 0173-1#02-AAO128#002
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   ├─ MultiLanguageProperty 'Zipcode'
+      Semantic ID: 0173-1#02-AAO129#002
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   ├─ MultiLanguageProperty 'POBox'
+      Semantic ID: 0173-1#02-AAO130#002
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   ├─ MultiLanguageProperty 'ZipCodeOfPOBox'
+      Semantic ID: 0173-1#02-AAO131#002
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   ├─ MultiLanguageProperty 'StateCounty'
+      Semantic ID: 0173-1#02-AAO133#002
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   ├─ MultiLanguageProperty 'NameOfContact'
+      Semantic ID: 0173-1#02-AAO205#002
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   ├─ MultiLanguageProperty 'FirstName'
+      Semantic ID: 0173-1#02-AAO206#002
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   ├─ MultiLanguageProperty 'MiddleNames'
+      Semantic ID: 0173-1#02-AAO207#002
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   ├─ MultiLanguageProperty 'Title'
+      Semantic ID: 0173-1#02-AAO208#003
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   ├─ MultiLanguageProperty 'AcademicTitle'
+      Semantic ID: 0173-1#02-AAO209#003
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   ├─ MultiLanguageProperty 'FurtherDetailsOfContact'
+      Semantic ID: 0173-1#02-AAO210#002
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   └─ Property 'AddressOfAdditionalLink'
+      Semantic ID: 0173-1#02-AAQ326#002
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]

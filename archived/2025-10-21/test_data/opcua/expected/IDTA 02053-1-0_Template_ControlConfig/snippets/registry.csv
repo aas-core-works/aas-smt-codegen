@@ -1,0 +1,15 @@
+Semantic ID,Browse Name,Namespace
+https://admin-shell.io/idta/ControlConfig/1/0,ControlConfig,https://admin-shell.io/idta/ControlConfig/1/0
+https://admin-shell.io/idta/ControlConfig/ControlConfigData/1/0,ControlConfigData,https://admin-shell.io/idta/ControlConfig/1/0
+https://admin-shell.io/idta/ControlConfig/Channels/1/0,Channels,https://admin-shell.io/idta/ControlConfig/1/0
+https://admin-shell.io/idta/ControlConfig/Channel/1/0,Channel,https://admin-shell.io/idta/ControlConfig/1/0
+https://admin-shell.io/idta/ControlConfig/Channels/AxesReference/1/0,AxesReference,https://admin-shell.io/idta/ControlConfig/1/0
+https://admin-shell.io/idta/ControlConfig/Axes/1/0,Axes,https://admin-shell.io/idta/ControlConfig/1/0
+https://admin-shell.io/idta/ControlConfig/Channel/Axis/1/0,Axis,https://admin-shell.io/idta/ControlConfig/1/0
+https://admin-shell.io/idta/ControlConfig/Channels/Axes/AxisConfigData/1/0,AxisConfigData,https://admin-shell.io/idta/ControlConfig/1/0
+https://admin-shell.io/idta/ControlConfig/Axes/Axis/Drive/1/0,Drive,https://admin-shell.io/idta/ControlConfig/1/0
+https://admin-shell.io/idta/ControlConfig/Axes/Axis/DriveConfigData/1/0,DriveConfigData,https://admin-shell.io/idta/ControlConfig/1/0
+https://admin-shell.io/idta/ControlConfig/NCProgramConfig/1/0,NCProgramConfig,https://admin-shell.io/idta/ControlConfig/1/0
+https://admin-shell.io/idta/ControlConfig/CommunicationConfig/1/0,CommunicationConfig,https://admin-shell.io/idta/ControlConfig/1/0
+https://admin-shell.io/idta/ControlConfig/Tools/1/0,Tools,https://admin-shell.io/idta/ControlConfig/1/0
+https://admin-shell.io/idta/ControlConfig/Tool/1/0,Tool,https://admin-shell.io/idta/ControlConfig/1/0

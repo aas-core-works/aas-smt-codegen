@@ -1,0 +1,109 @@
+Submodel - ID-short: 'Nameplate' ID: 'https://admin-shell.io/idta/SubmodelTemplate/DigitalNameplate/1/0'
+├─ MultiLanguageProperty 'ManufacturerName'
+   Semantic ID: 0173-1#02-AAO677#002
+   Qualifiers: ["{'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'One'}", "{'type': 'FormInfo', 'valueType': 'xs:string', 'value': 'Legally valid designation of the natural or judicial person which is directly responsible for the design, production, packaging and labeling of a product in respect to its being brought into circulation.'}"]
+├─ MultiLanguageProperty 'ManufacturerProductDesignation'
+   Semantic ID: 0173-1#02-AAW338#001
+   Qualifiers: ["{'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'One'}", "{'type': 'FormInfo', 'valueType': 'xs:string', 'value': 'Short description of the product (short text).'}"]
+├─ SubmodelElementCollection 'Address'
+   Semantic ID: 0173-1#02-AAQ832#005
+   Qualifiers: ["{'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'One'}", "{'type': 'FormInfo', 'valueType': 'xs:string', 'value': 'Address information of a business partner.'}"]
+   ├─ MultiLanguageProperty 'Department'
+      Semantic ID: 0173-1#02-AAO127#003
+      Qualifiers: ["{'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}", "{'type': 'FormInfo', 'valueType': 'xs:string', 'value': 'Administrative section within an organisation where a business partner is located.'}"]
+   ├─ MultiLanguageProperty 'Street'
+      Semantic ID: 0173-1#02-AAO128#002
+      Qualifiers: ["{'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'One'}", "{'type': 'FormInfo', 'valueType': 'xs:string', 'value': 'Street name and house number.'}"]
+   ├─ MultiLanguageProperty 'Zipcode'
+      Semantic ID: 0173-1#02-AAO129#002
+      Qualifiers: ["{'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'One'}", "{'type': 'FormInfo', 'valueType': 'xs:string', 'value': 'ZIP code of address.'}"]
+   ├─ MultiLanguageProperty 'POBox'
+      Semantic ID: 0173-1#02-AAO130#002
+      Qualifiers: ["{'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}", "{'type': 'FormInfo', 'valueType': 'xs:string', 'value': 'P.O. box number.'}"]
+   ├─ MultiLanguageProperty 'ZipCodeOfPOBox'
+      Semantic ID: 0173-1#02-AAO131#002
+      Qualifiers: ["{'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}", "{'type': 'FormInfo', 'valueType': 'xs:string', 'value': 'ZIP code of P.O. box address.'}"]
+   ├─ MultiLanguageProperty 'CityTown'
+      Semantic ID: 0173-1#02-AAO132#002
+      Qualifiers: ["{'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'One'}", "{'type': 'FormInfo', 'valueType': 'xs:string', 'value': 'Town or city name.'}"]
+   ├─ MultiLanguageProperty 'StateCounty'
+      Semantic ID: 0173-1#02-AAO133#002
+      Qualifiers: ["{'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}", "{'type': 'FormInfo', 'valueType': 'xs:string', 'value': 'Federal state; a part of a state.'}"]
+   ├─ MultiLanguageProperty 'NationalCode'
+      Semantic ID: 0173-1#02-AAO134#002
+      Qualifiers: ["{'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'One'}", "{'type': 'FormInfo', 'valueType': 'xs:string', 'value': 'Country code defined according to DIN EN ISO 3166-1.'}"]
+   ├─ MultiLanguageProperty 'VATNumber'
+      Semantic ID: 0173-1#02-AAO135#002
+      Qualifiers: ["{'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}", "{'type': 'FormInfo', 'valueType': 'xs:string', 'value': 'VAT (value added tax) identification number of the business partner.'}"]
+   ├─ MultiLanguageProperty 'AddressRemarks'
+      Semantic ID: 0173-1#02-AAO202#003
+      Qualifiers: ["{'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}", "{'type': 'FormInfo', 'valueType': 'xs:string', 'value': 'Plain text characterizing address information for which there is no property.'}"]
+   ├─ Property 'AddressOfAdditionalLink'
+      Semantic ID: 0173-1#02-AAQ326#002
+      Qualifiers: ["{'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}", "{'type': 'FormInfo', 'valueType': 'xs:string', 'value': 'Web site address where information about the product or contact is given.'}"]
+   ├─ SubmodelElementCollection 'Phone'
+      Semantic ID: 0173-1#02-AAQ833#005
+      Qualifiers: ["{'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToMany'}", "{'type': 'FormInfo', 'valueType': 'xs:string', 'value': 'Phone number including type.'}"]
+      ├─ MultiLanguageProperty 'TelephoneNumber'
+         Semantic ID: 0173-1#02-AAO136#002
+         Qualifiers: ["{'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'One'}", "{'type': 'FormInfo', 'valueType': 'xs:string', 'value': 'Complete telephone number to be called to reach a business partner.'}"]
+      └─ Property 'TypeOfTelephone'
+         Semantic ID: 0173-1#02-AAO137#003
+         Qualifiers: ["{'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}", "{'type': 'FormInfo', 'valueType': 'xs:string', 'value': 'Characterization of a telephone according to its location or usage.'}", "{'type': 'FormChoices', 'valueType': 'xs:string', 'value': 'Office;Office mobile;Secretary;Substitute;Home;Private mobile'}"]
+   ├─ SubmodelElementCollection 'Fax'
+      Semantic ID: 0173-1#02-AAQ834#005
+      Qualifiers: ["{'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToMany'}", "{'type': 'FormInfo', 'valueType': 'xs:string', 'value': 'Fax number including type.'}"]
+      ├─ MultiLanguageProperty 'FaxNumber'
+         Semantic ID: 0173-1#02-AAO195#002
+         Qualifiers: ["{'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'One'}", '{\'type\': \'FormInfo\', \'valueType\': \'xs:string\', \'value\': "Complete telephone number to be called to reach a business partner\'s fax machine."}']
+      └─ Property 'TypeOfFaxNumber'
+         Semantic ID: 0173-1#02-AAO196#003
+         Qualifiers: ["{'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}", "{'type': 'FormInfo', 'valueType': 'xs:string', 'value': 'Characterization of the fax according its location or usage.'}", "{'type': 'FormChoices', 'valueType': 'xs:string', 'value': 'Office;Secretary;Home'}"]
+   └─ SubmodelElementCollection 'Email'
+      Semantic ID: 0173-1#02-AAQ836#005
+      Qualifiers: ["{'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToMany'}", "{'type': 'FormInfo', 'valueType': 'xs:string', 'value': 'E-mail address and encryption method.'}"]
+      ├─ Property 'EmailAddress'
+         Semantic ID: 0173-1#02-AAO198#002
+         Qualifiers: ["{'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'One'}", "{'type': 'FormInfo', 'valueType': 'xs:string', 'value': 'Electronic mail address of a business partner.'}"]
+      ├─ MultiLanguageProperty 'PublicKey'
+         Semantic ID: 0173-1#02-AAO200#002
+         Qualifiers: ["{'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}", "{'type': 'FormInfo', 'valueType': 'xs:string', 'value': 'Public part of an unsymmetrical key pair to sign or encrypt text or messages.'}"]
+      ├─ Property 'TypeOfEmailAddress'
+         Semantic ID: 0173-1#02-AAO199#003
+         Qualifiers: ["{'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}", "{'type': 'FormInfo', 'valueType': 'xs:string', 'value': 'Characterization of an e-mail address according to its location or usage.'}", "{'type': 'FormChoices', 'valueType': 'xs:string', 'value': 'Office;Secretary;Substitute;Home'}"]
+      └─ MultiLanguageProperty 'TypeOfPublickKey'
+         Semantic ID: 0173-1#02-AAO201#002
+         Qualifiers: ["{'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}", "{'type': 'FormInfo', 'valueType': 'xs:string', 'value': 'Characterization of a public key according to its encryption process.'}"]
+├─ MultiLanguageProperty 'ManufacturerProductFamily'
+   Semantic ID: 0173-1#02-AAU731#001
+   Qualifiers: ["{'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'One'}", "{'type': 'FormInfo', 'valueType': 'xs:string', 'value': '2nd level of a 3 level manufacturer specific product hierarchy.'}"]
+├─ Property 'SerialNumber'
+   Semantic ID: 0173-1#02-AAM556#002
+   Qualifiers: ["{'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}", "{'type': 'FormInfo', 'valueType': 'xs:string', 'value': 'Unique combination of numbers and letters used to identify the device once it has been manufactured.'}"]
+├─ Property 'YearOfConstruction'
+   Semantic ID: 0173-1#02-AAP906#001
+   Qualifiers: ["{'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'One'}", "{'type': 'FormInfo', 'valueType': 'xs:string', 'value': 'Year as completion date of object.'}"]
+├─ SubmodelElementCollection 'Markings'
+   Semantic ID: https://admin-shell.io/zvei/nameplate/1/0/Nameplate/Markings
+   Qualifiers: ["{'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}", "{'type': 'FormInfo', 'valueType': 'xs:string', 'value': 'Collection of product markings.'}"]
+   └─ SubmodelElementCollection 'Marking'
+      Semantic ID: https://admin-shell.io/zvei/nameplate/1/0/Nameplate/Markings/Marking
+      Qualifiers: ["{'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'OneToMany'}", "{'type': 'FormInfo', 'valueType': 'xs:string', 'value': 'Individual information about the marking labelled on the device.'}"]
+      ├─ Property 'MarkingName'
+         Semantic ID: https://admin-shell.io/zvei/nameplate/1/0/Nameplate/Markings/Marking/MarkingName
+         Qualifiers: ["{'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'One'}", "{'type': 'FormInfo', 'valueType': 'xs:string', 'value': 'Common name of the marking.'}"]
+      ├─ File 'MarkingFile'
+         Semantic ID: https://admin-shell.io/zvei/nameplate/1/0/Nameplate/Markings/Marking/MarkingFile
+         Qualifiers: ["{'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'One'}", "{'type': 'FormInfo', 'valueType': 'xs:string', 'value': 'Common picture or logo of the marking.'}"]
+      └─ Property 'MarkingAdditionalText'
+         Semantic ID: https://admin-shell.io/zvei/nameplate/1/0/Nameplate/Markings/Marking/MarkingAdditionalText
+         Qualifiers: ["{'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToMany'}", "{'type': 'FormInfo', 'valueType': 'xs:string', 'value': 'Where applicable, additional information on the marking in plain text.'}"]
+└─ SubmodelElementCollection 'AssetSpecificProperties'
+   Semantic ID: https://admin-shell.io/zvei/nameplate/1/0/Nameplate/AssetSpecificProperties
+   Qualifiers: ["{'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}", "{'type': 'FormInfo', 'valueType': 'xs:string', 'value': 'Collection of asset or guideline specific properties.'}"]
+   └─ SubmodelElementCollection 'GuidelineSpecificProperties'
+      Semantic ID: https://admin-shell.io/zvei/nameplate/1/0/Nameplate/AssetSpecificProperties/GuidelineSpecificProperties
+      Qualifiers: ["{'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'OneToMany'}", "{'type': 'FormInfo', 'valueType': 'xs:string', 'value': 'Asset specific nameplate information required by guideline, stipulation or legislation.'}"]
+      └─ Property 'GuidelineForConformityDeclaration'
+         Semantic ID: 0173-1#02-AAO856#002
+         Qualifiers: ["{'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'One'}"]

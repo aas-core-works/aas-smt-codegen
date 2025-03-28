@@ -1,0 +1,22 @@
+Submodel - ID: 'https://admin-shell.io/zvei/nameplate/1/0/ContactInformations/AddressInformation'
+├─ MultiLanguageProperty 'Street'
+   Semantic ID: 0173-1#02-AAO128#002
+   Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+├─ MultiLanguageProperty 'CityTown'
+   Semantic ID: 0173-1#02-AAO132#002
+   Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+├─ MultiLanguageProperty 'Zipcode'
+   Semantic ID: 0173-1#02-AAO129#002
+   Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+├─ MultiLanguageProperty 'POBox'
+   Semantic ID: 0173-1#02-AAO130#002
+   Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+├─ MultiLanguageProperty 'ZipCodeOfPOBox'
+   Semantic ID: 0173-1#02-AAO131#002
+   Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+├─ MultiLanguageProperty 'StateCounty'
+   Semantic ID: 0173-1#02-AAO133#002
+   Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+└─ MultiLanguageProperty 'NationalCode'
+   Semantic ID: 0173-1#02-AAO134#002
+   Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]

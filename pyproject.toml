@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aas-smt-codegen"
+# NOTE (mristin):
+# Do not forget to sync with __init__.py!
+version = "0.0.1"
+
+description = "Transpile AAS Submodel Templates."
+readme = "README.md"
+requires-python = ">=3.10"
+
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+]
+
+authors = [
+    { name = "Marko Ristin", email = "marko@ristin.ch" }
+]
+
+dependencies = [
+    "aas-core3.0>=1,<2",
+    "icontract>=2,<3",
+    "typing_extensions",
+]
+
+[project.scripts]
+aas-smt-codegen = "aas_smt_codegen.main:entry_point"
+aas-smt-codegen-visualize = "aas_smt_codegen.aas_visualization:entry_point"
+
+[project.urls]
+repository = "https://github.com/aas-core-works/aas-smt-codegen"
+
+[tool.setuptools.packages.find]
+include = ["aas_smt_codegen"]
+exclude = ["dev"]

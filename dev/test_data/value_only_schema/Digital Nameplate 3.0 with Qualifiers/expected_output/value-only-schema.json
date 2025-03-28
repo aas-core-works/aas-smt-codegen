@@ -1,0 +1,268 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://admin-shell.io/idta/SubmodelTemplate/DigitalNameplate/3/0/value-only-schema.json",
+  "title": "Digital Nameplate Value-Only Schema",
+  "description": "JSON schema for value-only representation of IDTA Digital Nameplate 3.0 submodel template",
+  "$ref": "#/$defs/Nameplate",
+  "$defs": {
+    "Nameplate": {
+      "type": "object",
+      "properties": {
+        "URIOfTheProduct": {
+          "$ref": "https://admin-shell.io/idta/SubmodelTemplate/value-only-schema.json#/$defs/XsAnyUri"
+        },
+        "ManufacturerName": {
+          "allOf": [
+            {
+              "$ref": "https://admin-shell.io/idta/SubmodelTemplate/value-only-schema.json#/$defs/MultiLanguageProperty"
+            },
+            {
+              "minItems": 2
+            },
+            {
+              "contains": {
+                "required": [
+                  "de"
+                ]
+              }
+            },
+            {
+              "contains": {
+                "required": [
+                  "en"
+                ]
+              }
+            }
+          ]
+        },
+        "ManufacturerProductDesignation": {
+          "allOf": [
+            {
+              "$ref": "https://admin-shell.io/idta/SubmodelTemplate/value-only-schema.json#/$defs/MultiLanguageProperty"
+            },
+            {
+              "minItems": 2
+            },
+            {
+              "contains": {
+                "required": [
+                  "de"
+                ]
+              }
+            },
+            {
+              "contains": {
+                "required": [
+                  "en"
+                ]
+              }
+            }
+          ]
+        },
+        "AddressInformation": {
+          "$ref": "https://admin-shell.io/idta/SubmodelTemplate/ContactInformation/1/0/value-only-schema.json#/$defs/AddressInformation",
+          "description": "Note: this set of information is defined by SMT drop-in \"Address Information\""
+        },
+        "ManufacturerProductRoot": {
+          "allOf": [
+            {
+              "$ref": "https://admin-shell.io/idta/SubmodelTemplate/value-only-schema.json#/$defs/MultiLanguageProperty"
+            },
+            {
+              "minItems": 2
+            },
+            {
+              "contains": {
+                "required": [
+                  "de"
+                ]
+              }
+            },
+            {
+              "contains": {
+                "required": [
+                  "en"
+                ]
+              }
+            }
+          ]
+        },
+        "ManufacturerProductFamily": {
+          "allOf": [
+            {
+              "$ref": "https://admin-shell.io/idta/SubmodelTemplate/value-only-schema.json#/$defs/MultiLanguageProperty"
+            },
+            {
+              "minItems": 2
+            },
+            {
+              "contains": {
+                "required": [
+                  "de"
+                ]
+              }
+            },
+            {
+              "contains": {
+                "required": [
+                  "en"
+                ]
+              }
+            }
+          ]
+        },
+        "ManufacturerProductType": {
+          "$ref": "https://admin-shell.io/idta/SubmodelTemplate/value-only-schema.json#/$defs/XsString"
+        },
+        "OrderCodeOfManufacturer": {
+          "$ref": "https://admin-shell.io/idta/SubmodelTemplate/value-only-schema.json#/$defs/XsString"
+        },
+        "ProductArticleNumberOfManufacturer": {
+          "$ref": "https://admin-shell.io/idta/SubmodelTemplate/value-only-schema.json#/$defs/XsString"
+        },
+        "SerialNumber": {
+          "$ref": "https://admin-shell.io/idta/SubmodelTemplate/value-only-schema.json#/$defs/XsString"
+        },
+        "YearOfConstruction": {
+          "$ref": "https://admin-shell.io/idta/SubmodelTemplate/value-only-schema.json#/$defs/XsString"
+        },
+        "DateOfManufacture": {
+          "$ref": "https://admin-shell.io/idta/SubmodelTemplate/value-only-schema.json#/$defs/XsDate",
+          "anyOf": [
+            {
+              "minimum": "1950",
+              "maximum": "2100"
+            }
+          ]
+        },
+        "HardwareVersion": {
+          "$ref": "https://admin-shell.io/idta/SubmodelTemplate/value-only-schema.json#/$defs/XsString"
+        },
+        "FirmwareVersion": {
+          "$ref": "https://admin-shell.io/idta/SubmodelTemplate/value-only-schema.json#/$defs/XsString"
+        },
+        "SoftwareVersion": {
+          "$ref": "https://admin-shell.io/idta/SubmodelTemplate/value-only-schema.json#/$defs/XsString"
+        },
+        "CountryOfOrigin": {
+          "$ref": "https://admin-shell.io/idta/SubmodelTemplate/value-only-schema.json#/$defs/XsString",
+          "pattern": "(DE|FR|EN|ES|PL|IT|AT)",
+          "description": "Note: Country codes defined accord. to DIN EN ISO 3166-1 alpha-2 codes"
+        },
+        "UniqueFacilityIdentifier": {
+          "$ref": "https://admin-shell.io/idta/SubmodelTemplate/value-only-schema.json#/$defs/XsString"
+        },
+        "CompanyLogo": {
+          "$ref": "https://admin-shell.io/idta/SubmodelTemplate/value-only-schema.json#/$defs/File"
+        },
+        "Markings": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Marking"
+          },
+          "description": "Note: CE marking is declared as mandatory according to EU Blue Guide"
+        },
+        "AssetSpecificProperties": {
+          "$ref": "#/$defs/AssetSpecificProperties"
+        }
+      },
+      "required": [
+        "URIOfTheProduct",
+        "ManufacturerName",
+        "ManufacturerProductDesignation",
+        "AddressInformation",
+        "OrderCodeOfManufacturer"
+      ],
+      "additionalProperties": false,
+      "description": "Contains the nameplate information attached to the product"
+    },
+    "Marking": {
+      "type": "object",
+      "properties": {
+        "MarkingName": {
+          "$ref": "https://admin-shell.io/idta/SubmodelTemplate/value-only-schema.json#/$defs/XsString"
+        },
+        "DesignationOfCertificateOrApproval": {
+          "$ref": "https://admin-shell.io/idta/SubmodelTemplate/value-only-schema.json#/$defs/XsString",
+          "description": "Note: Approval identifier, reference to the certificate number, to be entered without spaces"
+        },
+        "IssueDate": {
+          "$ref": "https://admin-shell.io/idta/SubmodelTemplate/value-only-schema.json#/$defs/XsDate",
+          "description": "Note: format by lexical representation: CCYY-MM-DD Note: to be specified to the day"
+        },
+        "ExpiryDate": {
+          "$ref": "https://admin-shell.io/idta/SubmodelTemplate/value-only-schema.json#/$defs/XsDate",
+          "description": "Note: format by lexical representation: CCYY-MM-DD Note: to be specified to the day"
+        },
+        "MarkingFile": {
+          "$ref": "https://admin-shell.io/idta/SubmodelTemplate/value-only-schema.json#/$defs/File"
+        },
+        "MarkingAdditionalText": {
+          "type": "array",
+          "items": {
+            "$ref": "https://admin-shell.io/idta/SubmodelTemplate/value-only-schema.json#/$defs/XsString"
+          }
+        }
+      },
+      "required": [
+        "MarkingName",
+        "MarkingFile"
+      ],
+      "additionalProperties": false,
+      "description": "Note: CE marking is declared as mandatory according to the Blue Guide of the EU-Commission"
+    },
+    "AssetSpecificProperties": {
+      "type": "object",
+      "properties": {
+        "GuidelineSpecificProperties": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/GuidelineSpecificProperty"
+          }
+        }
+      },
+      "required": [],
+      "patternProperties": {
+        "^Prop_.+": {
+          "$ref": "https://admin-shell.io/idta/SubmodelTemplate/value-only-schema.json#/$defs/XsString"
+        }
+      },
+      "additionalProperties": {
+        "oneOf": [
+          {
+            "$ref": "https://admin-shell.io/idta/SubmodelTemplate/value-only-schema.json#/$defs/MultiLanguageProperty"
+          },
+          {
+            "$ref": "https://admin-shell.io/idta/SubmodelTemplate/value-only-schema.json#/$defs/File"
+          }
+        ]
+      }
+    },
+    "GuidelineSpecificProperty": {
+      "type": "object",
+      "properties": {
+        "GuidelineForConformityDeclaration": {
+          "$ref": "https://admin-shell.io/idta/SubmodelTemplate/value-only-schema.json#/$defs/XsString"
+        }
+      },
+      "required": [
+        "GuidelineForConformityDeclaration"
+      ],
+      "patternProperties": {
+        "^Prop_.+": {
+          "$ref": "https://admin-shell.io/idta/SubmodelTemplate/value-only-schema.json#/$defs/XsString"
+        }
+      },
+      "additionalProperties": {
+        "oneOf": [
+          {
+            "$ref": "https://admin-shell.io/idta/SubmodelTemplate/value-only-schema.json#/$defs/File"
+          },
+          {
+            "$ref": "https://admin-shell.io/idta/SubmodelTemplate/value-only-schema.json#/$defs/MultiLanguageProperty"
+          }
+        ]
+      }
+    }
+  }
+}

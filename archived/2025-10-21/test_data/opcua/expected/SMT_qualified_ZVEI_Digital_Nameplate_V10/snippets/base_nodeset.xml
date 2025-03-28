@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<UANodeSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns="http://opcfoundation.org/UA/2011/03/UANodeSet.xsd"
+           xmlns:uax="http://opcfoundation.org/UA/2008/02/Types.xsd"
+           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <NamespaceUris>
+        <Uri>https://admin-shell.io/zvei/nameplate/1/0</Uri>
+    </NamespaceUris>
+    <Models>
+        <Model ModelUri="https://admin-shell.io/zvei/nameplate/1/0"
+               Version="1.0.0" PublicationDate="2025-05-21T00:00:00Z">
+            <RequiredModel ModelUri="http://opcfoundation.org/UA/" Version="1.04.10"
+                           PublicationDate="2021-09-15T00:00:00Z"/>
+        </Model>
+    </Models>
+</UANodeSet>

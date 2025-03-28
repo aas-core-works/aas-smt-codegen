@@ -1,0 +1,46 @@
+Submodel - ID-short: 'Reliability' ID: 'https://admin-shell.io/idta/SubmodelTemplate/Reliability/1/0'
+├─ Property 'NumberOfReliabilitySets'
+   Semantic ID: 0112/2///62683#ACE006#001
+   Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'One'}"]
+├─ SubmodelElementCollection 'OperatingConditionsOfReliabilityCharacteristics'
+   Semantic ID: 0112/2///62683#ACG071#001
+   Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToMany'}"]
+   ├─ Property 'TypeOfVoltage'
+      Semantic ID: 0112/2///61987#ABA969#007
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToMany'}"]
+   ├─ Property 'RatedVoltage'
+      Semantic ID: 0112/2///61987#ABA588#004
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToMany'}"]
+   ├─ Property 'MinimumRatedVoltage'
+      Semantic ID: 0112/2///61987#ABD461#004
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToMany'}"]
+   ├─ Property 'MaximumRatedVoltage'
+      Semantic ID: 0112/2///61987#ABD462#004
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToMany'}"]
+   ├─ Property 'RatedOperationalCurrent'
+      Semantic ID: https://admin-shell.io/idta/FunctionalSafety/RatedOperationalCurrent/1/0
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToMany'}"]
+   ├─ Property 'TypeOfInterlockingDevice'
+      Semantic ID: 0112/2///62683#ACE053#001
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToMany'}"]
+   ├─ Property 'OtherOperatingConditions'
+      Semantic ID: 0112/2///62683#ACE070#001
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToMany'}"]
+   ├─ Property 'UsefulLifeInNumberOfOperations'
+      Semantic ID: 0112/2///62683#ACE055#001
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToMany'}"]
+   └─ Property 'UsefulLifeInTimeInterval'
+      Semantic ID: 0112/2///62683#ACE054#001
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToMany'}"]
+└─ SubmodelElementCollection 'ReliabilityCharacteristics'
+   Semantic ID: 0112/2///62683#ACG080#001
+   Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToMany'}"]
+   ├─ Property 'MTTF'
+      Semantic ID: 0112/2///62683#ACE061#001
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToMany'}"]
+   ├─ Property 'MTBF'
+      Semantic ID: 0112/2///62683#ACE062#001
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToMany'}"]
+   └─ Property 'B10'
+      Semantic ID: https://admin-shell.io/idta/Reliability/B10/1/0
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToMany'}"]

@@ -1,0 +1,94 @@
+Submodel - ID-short: 'FunctionalSafety' ID: 'https://admin-shell.io/idta/SubmodelTemplate/FunctionalSafety/1/0'
+├─ Property 'NumberOfFunctionalSafetySetsOfCharacteristics'
+   Semantic ID: 0112/2///62683#ACE005#001
+   Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'One'}"]
+├─ SubmodelElementCollection 'OperatingConditionsOfFunctionalSafetyCharacteristics'
+   Semantic ID: 0112/2///62683#ACG057#001
+   Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToMany'}"]
+   ├─ Property 'TypeOfVoltage'
+      Semantic ID: 0112/2///61987#ABA969#007
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   ├─ Property 'RatedVoltage'
+      Semantic ID: 0112/2///61987#ABA588#004
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   ├─ Property 'MinimumRatedVoltage'
+      Semantic ID: 0112/2///61987#ABD461#004
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   ├─ Property 'MaximumRatedVoltage'
+      Semantic ID: 0112/2///61987#ABD462#004
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   ├─ Property 'RatedOperationalCurrent'
+      Semantic ID: https://admin-shell.io/idta/FunctionalSafety/RatedOperationalCurrent/1/0
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   ├─ Property 'TypeOfInterlockingDevice'
+      Semantic ID: 0112/2///62683#ACE053#001
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   ├─ Property 'OtherOperatingConditions'
+      Semantic ID: 0112/2///62683#ACE070#001
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   ├─ Property 'UsefulLifeInNumberOfOperations'
+      Semantic ID: 0112/2///62683#ACE055#001
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   └─ Property 'UsefulLifeInTimeInterval'
+      Semantic ID: 0112/2///62683#ACE054#001
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+└─ SubmodelElementCollection 'SafetyDeviceTypes'
+   Semantic ID: 0112/2///62683#ACG070#001
+   Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToMany'}"]
+   ├─ Property 'FunctionalSafetyDeviceType'
+      Semantic ID: 0112/2///62683#ACE071#001
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'One'}"]
+   ├─ SubmodelElementCollection 'SafetySubsystem'
+      Semantic ID: 0112/2///62683#ACG065#001
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+      ├─ Property 'SIL'
+         Semantic ID: 0112/2///62683#ACE051#001
+         Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'One'}"]
+      ├─ Property 'PFH'
+         Semantic ID: 0112/2///62683#ACE052#001
+         Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+      ├─ Property 'ProofTestInterval'
+         Semantic ID: 0112/2///62683#ACE058#001
+         Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+      ├─ Property 'PL'
+         Semantic ID: 0112/2///62683#ACE060#001
+         Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+      └─ Property 'Category'
+         Semantic ID: 0112/2///62683#ACE063#001
+         Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   ├─ SubmodelElementCollection 'ElectronicElement'
+      Semantic ID: 0112/2///62683#ACG066#001
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+      ├─ Property 'MTTFD'
+         Semantic ID: 0112/2///62683#ACE057#001
+         Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+      ├─ Property 'RDF'
+         Semantic ID: https://admin-shell.io/idta/FunctionalSafety/RDF/1/0
+         Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+      └─ Property 'ProofTestInterval'
+         Semantic ID: 0112/2///62683#ACE058#001
+         Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   ├─ SubmodelElementCollection 'ElectromechanicalElement'
+      Semantic ID: 0112/2///62683#ACG067#001
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+      ├─ Property 'B10D'
+         Semantic ID: 0112/2///62683#ACE056#001
+         Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+      └─ Property 'ProofTestInterval'
+         Semantic ID: 0112/2///62683#ACE058#001
+         Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   └─ SubmodelElementCollection 'InherentlySafeSubsystem'
+      Semantic ID: 0112/2///62683#ACG069#001
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+      ├─ Property 'SIL'
+         Semantic ID: 0112/2///62683#ACE051#001
+         Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'One'}"]
+      ├─ Property 'ProofTestInterval'
+         Semantic ID: 0112/2///62683#ACE058#001
+         Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+      ├─ Property 'PL'
+         Semantic ID: 0112/2///62683#ACE060#001
+         Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+      └─ Property 'Category'
+         Semantic ID: 0112/2///62683#ACE063#001
+         Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]

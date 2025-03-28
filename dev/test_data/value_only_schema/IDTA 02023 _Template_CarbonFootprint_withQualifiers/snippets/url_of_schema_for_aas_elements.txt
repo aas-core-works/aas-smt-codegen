@@ -1,0 +1,1 @@
+https://admin-shell.io/idta/SubmodelTemplate/value-only-schema.json
