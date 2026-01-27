@@ -16,70 +16,25 @@ aas-smt-codegen:
 * ... to handle AAS Submodel Templates
 * ... based on the AAS Submodel Template definition given as AAS environment.
 
-Motivation
-==========
-TODO
-
-Therefore we can easily scale to many languages and schemas.
-
-Here is a diagram to illustrate the whole process:
-
-..
-    digraph G {
-        node [shape=rect]
-
-        details [label="Details of Asset Administration Shell (the book)"];
-        metamodel [label="Meta-model in a subset of Python\n\n* Data types\n* Constraints\n* Markers"];
-
-        subgraph cluster_1 {
-            label="aas-smt-codegen"
-            color=blue
-            labelloc="t"
-            labeljust="r"
-
-            parser [label="Parser"];
-            intermediate [label="Intermediate representation\n(Meta-model-specific, but language agnostic)"];
-
-            csharpgen [label="C\# generator"];
-            javagen [label="Java generator"];
-
-            dot [label="..."];
-        }
-
-        csharpcode [label="C\# code"];
-        javacode [label="Java code"];
-
-        details -> metamodel;
-        metamodel -> parser;
-        parser -> intermediate;
-        intermediate -> csharpgen;
-        intermediate -> javagen;
-        intermediate -> dot;
-        csharpgen -> csharpcode;
-        javagen -> javacode;
-    }
-
-.. image:: https://raw.githubusercontent.com/aas-core-works/aas-smt-codegen/main/diagram.svg
-
 Installation
 ============
 Create a virtual environment:
 
 .. code-block::
 
-    python -m venv venv-aas-smt-codegen
+    python -m venv venv
 
 Activate it (in Windows):
 
 .. code-block::
 
-    venv-venv-aas-smt-codegen\Scripts\activate
+    venv\Scripts\activate
 
 or in Linux and OS X:
 
 .. code-block::
 
-    source venv-aas-smt-codegen/bin/activate
+    source venv/bin/activate
 
 Install the tool in the virtual environment from the GitHub:
 
