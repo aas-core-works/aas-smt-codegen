@@ -1,0 +1,8 @@
+Semantic ID,Browse Name,Namespace
+https://admin-shell.io/idta/iec62683/1/0/FunctionalSafety,FunctionalSafety,https://admin-shell.io/idta/FunctionalSafety/1/0
+0112/2///62683#ACG057#001,OperatingConditionsOfFunctionalSafetyCharacteristics,https://admin-shell.io/idta/FunctionalSafety/1/0
+0112/2///62683#ACG070#001,SafetyDeviceTypes,https://admin-shell.io/idta/FunctionalSafety/1/0
+0112/2///62683#ACG065#001,SafetySubsystem,https://admin-shell.io/idta/FunctionalSafety/1/0
+0112/2///62683#ACG066#001,ElectronicElement,https://admin-shell.io/idta/FunctionalSafety/1/0
+0112/2///62683#ACG067#001,ElectromechanicalElement,https://admin-shell.io/idta/FunctionalSafety/1/0
+0112/2///62683#ACG069#001,InherentlySafeSubsystem,https://admin-shell.io/idta/FunctionalSafety/1/0

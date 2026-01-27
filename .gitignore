@@ -1,3 +1,7 @@
+.idea/
+howto*.pdf
+deleteme*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

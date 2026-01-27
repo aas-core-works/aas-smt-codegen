@@ -1,0 +1,20 @@
+Entity 'https://admin-shell.io/idta/BackendSpecificMaterialInformation/1/0/'
+  MaterialSystemProperties One https://admin-shell.io/idta/BackendSpecificMaterialInformation/MaterialSystemProperties/1/0
+---
+Entity 'https://admin-shell.io/idta/BackendSpecificMaterialInformation/MaterialSystemProperties/1/0'
+  'MaterialType' One
+  {"idShort": "MaterialType", "modelType": "Property", "semanticId": {"keys": [{"type": "GlobalReference", "value": "https://admin-shell.io/idta/BackendSpecificMaterialInformation/MaterialSystemProperties/MaterialType/1/0"}], "type": "ExternalReference"}, "valueType": "xs:string"}
+  'BaseUnitOfMeasure' One
+  {"idShort": "BaseUnitOfMeasure", "modelType": "MultiLanguageProperty", "semanticId": {"keys": [{"type": "GlobalReference", "value": "https://admin-shell.io/idta/BackendSpecificMaterialInformation/MaterialSystemProperties/BaseUnitOfMeasure/1/0"}], "type": "ExternalReference"}, "value": [{"language": "en?", "text": ""}]}
+  'MaterialStatus' One
+  {"idShort": "MaterialStatus", "modelType": "Property", "semanticId": {"keys": [{"type": "GlobalReference", "value": "https://admin-shell.io/idta/BackendSpecificMaterialInformation/MaterialSystemProperties/MaterialStatus/1/0"}], "type": "ExternalReference"}, "valueType": "xs:string"}
+  'Industry' One
+  {"idShort": "Industry", "modelType": "Property", "semanticId": {"keys": [{"type": "GlobalReference", "value": "https://admin-shell.io/idta/BackendSpecificMaterialInformation/MaterialSystemProperties/Industry/1/0https://admin-shell.io/idta/BackendSpecificMaterialInformation/MaterialSystemProperties/Industry/1/0"}], "type": "ExternalReference"}, "valueType": "xs:string"}
+  'ProductName' One
+  {"idShort": "ProductName", "modelType": "MultiLanguageProperty", "semanticId": {"keys": [{"type": "GlobalReference", "value": "https://admin-shell.io/idta/BackendSpecificMaterialInformation/MaterialSystemProperties/ProductName/1/0"}], "type": "ExternalReference"}, "value": [{"language": "en?", "text": ""}]}
+  'MaterialNumber' One
+  {"idShort": "MaterialNumber", "modelType": "Property", "semanticId": {"keys": [{"type": "GlobalReference", "value": "https://admin-shell.io/idta/BackendSpecificMaterialInformation/MaterialSystemProperties/MaterialNumber/1/0"}], "type": "ExternalReference"}, "valueType": "xs:string"}
+  'Description' One
+  {"idShort": "Description", "modelType": "MultiLanguageProperty", "semanticId": {"keys": [{"type": "GlobalReference", "value": "https://admin-shell.io/idta/BackendSpecificMaterialInformation/MaterialSystemProperties/Description/1/0"}], "type": "ExternalReference"}, "value": [{"language": "en?", "text": ""}]}
+  'Plant' One
+  {"idShort": "Plant", "modelType": "Property", "semanticId": {"keys": [{"type": "GlobalReference", "value": "https://admin-shell.io/idta/BackendSpecificMaterialInformation/MaterialSystemProperties/Plant/1/0"}], "type": "ExternalReference"}, "valueType": "xs:string"}

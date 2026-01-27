@@ -1,0 +1,8 @@
+Semantic ID,Browse Name,Namespace
+https://admin-shell.io/idta/SoftwareNameplate/1/0,SoftwareNameplate,https://admin-shell.io/idta/SoftwareNameplate/1/0
+https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateType,SoftwareNameplateType,https://admin-shell.io/idta/SoftwareNameplate/1/0
+https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateInstance,SoftwareNameplateInstance,https://admin-shell.io/idta/SoftwareNameplate/1/0
+https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateInstance/InstalledModules,InstalledModules,https://admin-shell.io/idta/SoftwareNameplate/1/0
+https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateInstance/ConfigurationPaths,ConfigurationPaths,https://admin-shell.io/idta/SoftwareNameplate/1/0
+https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateInstance/ConfigurationPath,ConfigurationPath,https://admin-shell.io/idta/SoftwareNameplate/1/0
+https://admin-shell.io/zvei/nameplate/1/0/ContactInformations/ContactInformation,Contact,https://admin-shell.io/idta/ContactInformation/1/0

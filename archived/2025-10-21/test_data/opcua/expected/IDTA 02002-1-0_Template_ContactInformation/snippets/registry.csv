@@ -1,0 +1,7 @@
+Semantic ID,Browse Name,Namespace
+https://admin-shell.io/zvei/nameplate/1/0/ContactInformations,ContactInformations,https://admin-shell.io/idta/ContactInformation/1/0
+https://admin-shell.io/zvei/nameplate/1/0/ContactInformations/ContactInformation,ContactInformation,https://admin-shell.io/idta/ContactInformation/1/0
+https://admin-shell.io/zvei/nameplate/1/0/ContactInformations/ContactInformation/Phone,Phone,https://admin-shell.io/idta/ContactInformation/1/0
+0173-1#02-AAQ834#005,Fax,https://admin-shell.io/idta/ContactInformation/1/0
+0173-1#02-AAQ836#005,Email,https://admin-shell.io/idta/ContactInformation/1/0
+https://admin-shell.io/zvei/nameplate/1/0/ContactInformations/IPCommunication,IPCommunication,https://admin-shell.io/idta/ContactInformation/1/0

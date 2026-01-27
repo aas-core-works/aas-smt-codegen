@@ -1,0 +1,166 @@
+{
+  "submodels": [
+    {
+      "id": "https://admin-shell.io/zvei/nameplate/1/0/ContactInformations/AddressInformation",
+      "modelType": "Submodel",
+      "semanticId": {
+        "keys": [
+          {
+            "type": "GlobalReference",
+            "value": "https://admin-shell.io/zvei/nameplate/1/0/ContactInformations/AddressInformation"
+          }
+        ],
+        "type": "ExternalReference"
+      },
+      "submodelElements": [
+        {
+          "idShort": "Street",
+          "modelType": "MultiLanguageProperty",
+          "qualifiers": [
+            {
+              "kind": "ConceptQualifier",
+              "type": "SMT/Cardinality",
+              "value": "ZeroToOne",
+              "valueType": "xs:string"
+            }
+          ],
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "0173-1#02-AAO128#002"
+              }
+            ],
+            "type": "ExternalReference"
+          }
+        },
+        {
+          "idShort": "CityTown",
+          "modelType": "MultiLanguageProperty",
+          "qualifiers": [
+            {
+              "kind": "ConceptQualifier",
+              "type": "SMT/Cardinality",
+              "value": "ZeroToOne",
+              "valueType": "xs:string"
+            }
+          ],
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "0173-1#02-AAO132#002"
+              }
+            ],
+            "type": "ExternalReference"
+          }
+        },
+        {
+          "idShort": "Zipcode",
+          "modelType": "MultiLanguageProperty",
+          "qualifiers": [
+            {
+              "kind": "ConceptQualifier",
+              "type": "SMT/Cardinality",
+              "value": "ZeroToOne",
+              "valueType": "xs:string"
+            }
+          ],
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "0173-1#02-AAO129#002"
+              }
+            ],
+            "type": "ExternalReference"
+          }
+        },
+        {
+          "idShort": "POBox",
+          "modelType": "MultiLanguageProperty",
+          "qualifiers": [
+            {
+              "kind": "ConceptQualifier",
+              "type": "SMT/Cardinality",
+              "value": "ZeroToOne",
+              "valueType": "xs:string"
+            }
+          ],
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "0173-1#02-AAO130#002"
+              }
+            ],
+            "type": "ExternalReference"
+          }
+        },
+        {
+          "idShort": "ZipCodeOfPOBox",
+          "modelType": "MultiLanguageProperty",
+          "qualifiers": [
+            {
+              "kind": "ConceptQualifier",
+              "type": "SMT/Cardinality",
+              "value": "ZeroToOne",
+              "valueType": "xs:string"
+            }
+          ],
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "0173-1#02-AAO131#002"
+              }
+            ],
+            "type": "ExternalReference"
+          }
+        },
+        {
+          "idShort": "StateCounty",
+          "modelType": "MultiLanguageProperty",
+          "qualifiers": [
+            {
+              "kind": "ConceptQualifier",
+              "type": "SMT/Cardinality",
+              "value": "ZeroToOne",
+              "valueType": "xs:string"
+            }
+          ],
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "0173-1#02-AAO133#002"
+              }
+            ],
+            "type": "ExternalReference"
+          }
+        },
+        {
+          "idShort": "NationalCode",
+          "modelType": "MultiLanguageProperty",
+          "qualifiers": [
+            {
+              "kind": "ConceptQualifier",
+              "type": "SMT/Cardinality",
+              "value": "ZeroToOne",
+              "valueType": "xs:string"
+            }
+          ],
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "0173-1#02-AAO134#002"
+              }
+            ],
+            "type": "ExternalReference"
+          }
+        }
+      ]
+    }
+  ]
+}

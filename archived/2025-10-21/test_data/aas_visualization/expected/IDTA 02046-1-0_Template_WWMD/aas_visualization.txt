@@ -1,0 +1,208 @@
+Submodel - ID-short: 'WorkstationWorkerMatchingData' ID: 'https://admin-shell.io/idta/SubmodelTemplate/workstationMatching/1/0'
+├─ SubmodelElementCollection 'GeneralWorkstationData'
+   Semantic ID: https://admin-shell.io/idta/smc/generalworkstationdata/1/0
+   Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'One'}"]
+   ├─ SubmodelElementCollection 'WorkstationInformation'
+      Semantic ID: https://admin-shell.io/idta/smc/workstationinformation/1/0
+      Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'One'}"]
+      ├─ Property 'WorkstationName'
+         Semantic ID: https://admin-shell.io/idta/prop/workstationname/1/0
+         Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+      ├─ Property 'WorkstationId'
+         Semantic ID: {'type': 'ModelReference', 'keys': [{'type': 'ConceptDescription', 'value': 'https://admin-shell.io/idta/prop/workstationid/1/0'}]}
+         Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'One'}"]
+      ├─ MultiLanguageProperty 'OrgName'
+         Semantic ID: {'type': 'ModelReference', 'keys': [{'type': 'ConceptDescription', 'value': 'https://admin-shell.io/idta/mlp/orgname/1/0'}]}
+         Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+      ├─ MultiLanguageProperty 'TypeOfWorkstation'
+         Semantic ID: {'type': 'ModelReference', 'keys': [{'type': 'ConceptDescription', 'value': 'https://admin-shell.io/idta/mlp/typeofworkstation/1/0'}]}
+         Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+      ├─ MultiLanguageProperty 'WorkerAssistanceInformation'
+         Semantic ID: https://admin-shell.io/idta/mlp/workerassistanceeinformation/1/0
+         Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+      ├─ MultiLanguageProperty 'RequiredPersonalSafetyEquipment'
+         Semantic ID: {'type': 'ModelReference', 'keys': [{'type': 'ConceptDescription', 'value': 'https://admin-shell.io/idta/mlp/requiredpersonalsafetyequipment/1/0'}]}
+         Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+      ├─ MultiLanguageProperty 'NecessaryPersonalTools'
+         Semantic ID: {'type': 'ModelReference', 'keys': [{'type': 'ConceptDescription', 'value': 'https://admin-shell.io/idta/mlp/necessarypersonaltools/1/0'}]}
+         Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+      ├─ MultiLanguageProperty 'PersonalDataProcessing'
+         Semantic ID: https://admin-shell.io/idta/mlp/personaldataprocessing/1/0
+         Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+      ├─ MultiLanguageProperty 'LocationDescription'
+         Semantic ID: {'type': 'ModelReference', 'keys': [{'type': 'ConceptDescription', 'value': 'https://admin-shell.io/idta/mlp/locationdescription/1/0'}]}
+         Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+      └─ MultiLanguageProperty 'Directions'
+         Semantic ID: {'type': 'ModelReference', 'keys': [{'type': 'ConceptDescription', 'value': 'https://admin-shell.io/idta/mlp/directions/1/0'}]}
+         Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   ├─ SubmodelElementList 'GeneralQualificationDemand'
+      Semantic ID: https://admin-shell.io/idta/sml/generalqualificationdemand/1/0
+      Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+      └─ SubmodelElementCollection
+         Semantic ID: https://admin-shell.io/idta/smc/generalqualificationdemandrecord/1/0
+         Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToMany'}"]
+         ├─ Property 'QualificationClassificationId'
+            Semantic ID: {'type': 'ModelReference', 'keys': [{'type': 'ConceptDescription', 'value': 'https://admin-shell.io/idta/prop/qualificationclassificationid/1/0'}]}
+            Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'One'}"]
+         ├─ Property 'QualificationId'
+            Semantic ID: {'type': 'ModelReference', 'keys': [{'type': 'ConceptDescription', 'value': 'https://admin-shell.io/idta/prop/qualificationid/1/0'}]}
+            Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'One'}"]
+         └─ MultiLanguageProperty 'ExceptionRules'
+            Semantic ID: {'type': 'ModelReference', 'keys': [{'type': 'ConceptDescription', 'value': 'https://admin-shell.io/idta/mlp/exceptionrules/1/0'}]}
+            Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   └─ SubmodelElementList 'GeneralSkillDemand'
+      Semantic ID: https://admin-shell.io/idta/sml/generalskilldemand/1/0
+      Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+      └─ SubmodelElementCollection
+         Semantic ID: https://admin-shell.io/idta/smc/generalskilldemandrecord/1/0
+         Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToMany'}"]
+         ├─ Property 'SkillClassificationId'
+            Semantic ID: {'type': 'ModelReference', 'keys': [{'type': 'ConceptDescription', 'value': 'https://admin-shell.io/idta/prop/skillclassificationid/1/0'}]}
+            Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'One'}"]
+         ├─ Property 'SkillLevelClassificationId'
+            Semantic ID: {'type': 'ModelReference', 'keys': [{'type': 'ConceptDescription', 'value': 'https://admin-shell.io/idta/prop/skilllevelclassificationid/1/0'}]}
+            Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+         ├─ Property 'SkillLevelId'
+            Semantic ID: {'type': 'ModelReference', 'keys': [{'type': 'ConceptDescription', 'value': 'https://admin-shell.io/idta/prop/skilllevelid/1/0'}]}
+            Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+         ├─ Property 'SkillId'
+            Semantic ID: {'type': 'ModelReference', 'keys': [{'type': 'ConceptDescription', 'value': 'https://admin-shell.io/idta/prop/skillid/1/0'}]}
+            Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'One'}"]
+         └─ MultiLanguageProperty 'ExceptionRules'
+            Semantic ID: https://admin-shell.io/idta/mlp/exceptionrules/1/0
+            Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+├─ SubmodelElementCollection 'ErgonomicWorkstationProfile'
+   Semantic ID: https://admin-shell.io/idta/smc/ergonomicworkstationprofile/1/0
+   Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   ├─ Property 'MaxLiftingWeight'
+      Semantic ID: {'type': 'ModelReference', 'keys': [{'type': 'ConceptDescription', 'value': 'https://admin-shell.io/idta/prop/maxliftingweight/1/0'}]}
+      Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   ├─ Property 'MinWorkerHeight'
+      Semantic ID: {'type': 'ModelReference', 'keys': [{'type': 'ConceptDescription', 'value': 'https://admin-shell.io/idta/prop/minworkerheight/1/0'}]}
+      Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   └─ SubmodelElementList 'AllowedPersonalLimitations'
+      Semantic ID: https://admin-shell.io/idta/sml/allowedpersonallimitations/1/0
+      Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+      └─ SubmodelElementCollection
+         Semantic ID: https://admin-shell.io/idta/smc/allowedpersonallimitationsrecord/1/0
+         ├─ Property 'LimitationClassificationId'
+            Semantic ID: https://admin-shell.io/idta/prop/limitationclassificationid/1/0
+            Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'One'}"]
+         └─ Property 'PersonalLimitationId'
+            Semantic ID: {'type': 'ModelReference', 'keys': [{'type': 'ConceptDescription', 'value': 'https://admin-shell.io/idta/prop/personallimitationid/1/0'}]}
+            Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'One'}"]
+├─ SubmodelElementList 'WorkstationConfigurationRecords'
+   Semantic ID: https://admin-shell.io/idta/sml/workstationconfigurationrecords/1/0
+   Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'One'}"]
+   └─ SubmodelElementCollection
+      Semantic ID: https://admin-shell.io/idta/smc/workstationconfigurationrecord/1/0
+      ├─ Property 'WorkerId'
+         Semantic ID: {'type': 'ModelReference', 'keys': [{'type': 'ConceptDescription', 'value': 'https://admin-shell.io/idta/prop/workerid/1/0'}]}
+         Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'One'}"]
+      ├─ Property 'AccessStart'
+         Semantic ID: https://admin-shell.io/idta/prop/accessstart/1/0
+         Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+      ├─ Property 'AccessEnd'
+         Semantic ID: {'type': 'ModelReference', 'keys': [{'type': 'ConceptDescription', 'value': 'https://admin-shell.io/idta/prop/accessend/1/0'}]}
+         Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+      ├─ Property 'PreferredHeight'
+         Semantic ID: https://admin-shell.io/idta/prop/preferredheight/1/0
+         Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+      └─ SubmodelElementList 'ProprietaryConfigurations'
+         Semantic ID: https://admin-shell.io/idta/sml/proprietaryconfigurations/1/0
+         Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+         └─ SubmodelElementCollection
+            Semantic ID: https://admin-shell.io/idta/smc/proprietaryconfigurationsrecord/1/0
+            ├─ Property 'ConfigurationName'
+               Semantic ID: {'type': 'ModelReference', 'keys': [{'type': 'ConceptDescription', 'value': 'https://admin-shell.io/idta/prop/configurationname/1/0'}]}
+               Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'One'}"]
+            └─ Property 'ConfigurationValue'
+               Semantic ID: {'type': 'ModelReference', 'keys': [{'type': 'ConceptDescription', 'value': 'https://admin-shell.io/idta/prop/configurationvalue/1/0'}]}
+               Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'One'}"]
+├─ SubmodelElementList 'PlannedQualificationDemand'
+   Semantic ID: https://admin-shell.io/idta/sml/plannedqualificationdemand/1/0
+   Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   └─ SubmodelElementCollection
+      Semantic ID: https://admin-shell.io/idta/smc/plannedqualificationdemandrecord/1/0
+      Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToMany'}"]
+      ├─ MultiLanguageProperty 'IntervalDescription'
+         Semantic ID: {'type': 'ModelReference', 'keys': [{'type': 'ConceptDescription', 'value': 'https://admin-shell.io/idta/mlp/intervaldescription/1/0'}]}
+         Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+      ├─ Property 'IntervalStart'
+         Semantic ID: {'type': 'ModelReference', 'keys': [{'type': 'ConceptDescription', 'value': 'https://admin-shell.io/idta/prop/intervalstart/1/0'}]}
+         Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+      ├─ Property 'IntervalEnd'
+         Semantic ID: {'type': 'ModelReference', 'keys': [{'type': 'ConceptDescription', 'value': 'https://admin-shell.io/idta/prop/intervalend/1/0'}]}
+         Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+      └─ SubmodelElementList 'QualificationDemandRecords'
+         Semantic ID: https://admin-shell.io/idta/sml/qualificationdemandrecords/1/0
+         Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+         └─ SubmodelElementCollection
+            Semantic ID: https://admin-shell.io/idta/smc/qualificationdemandrecord/1/0
+            ├─ Property 'QualificationClassificationId'
+               Semantic ID: https://admin-shell.io/idta/prop/qualificationclassificationid/1/0
+               Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'One'}"]
+            ├─ Property 'QualificationId'
+               Semantic ID: https://admin-shell.io/idta/prop/qualificationid/1/0
+               Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'One'}"]
+            ├─ MultiLanguageProperty 'ExceptionRules'
+               Semantic ID: https://admin-shell.io/idta/mlp/exceptionrules/1/0
+               Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+            ├─ Property 'DemandKind'
+               Semantic ID: https://admin-shell.io/idta/prop/demandkind/1/0
+               Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+            ├─ Property 'StartTime'
+               Semantic ID: {'type': 'ModelReference', 'keys': [{'type': 'ConceptDescription', 'value': 'https://admin-shell.io/idta/prop/starttime/1/0'}]}
+               Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'One'}"]
+            ├─ Property 'EndTime'
+               Semantic ID: {'type': 'ModelReference', 'keys': [{'type': 'ConceptDescription', 'value': 'https://admin-shell.io/idta/prop/endtime/1/0'}]}
+               Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'One'}"]
+            └─ Property 'ProcessTime'
+               Semantic ID: {'type': 'ModelReference', 'keys': [{'type': 'ConceptDescription', 'value': 'https://admin-shell.io/idta/prop/processtime/1/0'}]}
+               Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'One'}"]
+└─ SubmodelElementList 'PlannedSkillDemand'
+   Semantic ID: https://admin-shell.io/idta/sml/plannedskilldemand/1/0
+   Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   └─ SubmodelElementCollection
+      Semantic ID: https://admin-shell.io/idta/smc/plannedskilldemandrecord/1/0
+      Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToMany'}"]
+      ├─ MultiLanguageProperty 'IntervalDescription'
+         Semantic ID: {'type': 'ModelReference', 'keys': [{'type': 'ConceptDescription', 'value': 'https://admin-shell.io/idta/mlp/intervaldescription/1/0'}]}
+         Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+      ├─ Property 'IntervalStart'
+         Semantic ID: {'type': 'ModelReference', 'keys': [{'type': 'ConceptDescription', 'value': 'https://admin-shell.io/idta/prop/intervalstart/1/0'}]}
+         Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+      ├─ Property 'IntervalEnd'
+         Semantic ID: {'type': 'ModelReference', 'keys': [{'type': 'ConceptDescription', 'value': 'https://admin-shell.io/idta/prop/intervalend/1/0'}]}
+         Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+      └─ SubmodelElementList 'SkillDemandRecords'
+         Semantic ID: https://admin-shell.io/idta/sml/skilldemandrecords/1/0
+         └─ SubmodelElementCollection
+            Semantic ID: https://admin-shell.io/idta/smc/skilldemandrecord/1/0
+            ├─ Property 'SkillClassificationId'
+               Semantic ID: https://admin-shell.io/idta/prop/skillclassificationid/1/0
+               Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'One'}"]
+            ├─ Property 'SkillLevelClassificationId'
+               Semantic ID: https://admin-shell.io/idta/prop/skilllevelclassificationid/1/0
+               Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+            ├─ Property 'SkillLevelId'
+               Semantic ID: https://admin-shell.io/idta/prop/skilllevelid/1/0
+               Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+            ├─ Property 'SkillId'
+               Semantic ID: https://admin-shell.io/idta/prop/skillid/1/0
+               Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'One'}"]
+            ├─ MultiLanguageProperty 'ExceptionRules'
+               Semantic ID: https://admin-shell.io/idta/mlp/exceptionrules/1/0
+               Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+            ├─ Property 'DemandKind'
+               Semantic ID: https://admin-shell.io/idta/prop/demandkind/1/0
+               Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+            ├─ Property 'StartTime'
+               Semantic ID: {'type': 'ModelReference', 'keys': [{'type': 'ConceptDescription', 'value': 'https://admin-shell.io/idta/prop/starttime/1/0'}]}
+               Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'One'}"]
+            ├─ Property 'EndTime'
+               Semantic ID: {'type': 'ModelReference', 'keys': [{'type': 'ConceptDescription', 'value': 'https://admin-shell.io/idta/prop/endtime/1/0'}]}
+               Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'One'}"]
+            └─ Property 'ProcessTime'
+               Semantic ID: {'type': 'ModelReference', 'keys': [{'type': 'ConceptDescription', 'value': 'https://admin-shell.io/idta/prop/processtime/1/0'}]}
+               Qualifiers: ["{'semanticId': {'type': 'ExternalReference', 'keys': [{'type': 'GlobalReference', 'value': 'https://admin-shell.io/SubmodelTemplates/Cardinality/1/0'}]}, 'kind': 'TemplateQualifier', 'type': 'SMT/Cardinality', 'valueType': 'xs:string', 'value': 'One'}"]

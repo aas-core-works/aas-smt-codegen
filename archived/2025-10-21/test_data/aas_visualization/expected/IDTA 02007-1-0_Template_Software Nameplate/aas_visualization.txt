@@ -1,0 +1,115 @@
+Submodel - ID-short: 'SoftwareNameplate' ID: 'https://admin-shell.io/idta/SubmodelTemplate/SoftwareNameplate/1/0'
+├─ SubmodelElementCollection 'SoftwareNameplateType'
+   Semantic ID: https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateType
+   Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   ├─ Property 'URIOfTheProduct'
+      Semantic ID: 0173-1#02-AAY811#001
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'One'}"]
+   ├─ MultiLanguageProperty 'ManufacturerName'
+      Semantic ID: 0173-1#02-AAO677#002
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'One'}"]
+   ├─ MultiLanguageProperty 'ManufacturerProductDesignation'
+      Semantic ID: 0173-1#02-AAW338#001
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'One'}"]
+   ├─ MultiLanguageProperty 'ManufacturerProductDescription'
+      Semantic ID: https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateType/ManufacturerProductDescription
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   ├─ MultiLanguageProperty 'ManufacturerProductFamily'
+      Semantic ID: 0173-1#02-AAU731#001
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   ├─ MultiLanguageProperty 'ManufacturerProductType'
+      Semantic ID: 0173-1#02-AAO057#002
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   ├─ Property 'SoftwareType'
+      Semantic ID: https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateType/SoftwareType
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   ├─ Property 'Version'
+      Semantic ID: https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateType/Version
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'One'}"]
+   ├─ MultiLanguageProperty 'VersionName'
+      Semantic ID: https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateType/VersionName
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   ├─ MultiLanguageProperty 'VersionInfo'
+      Semantic ID: https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateType/VersionInfo
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   ├─ Property 'ReleaseDate'
+      Semantic ID: https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateType/ReleaseDate
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'One'}"]
+   ├─ MultiLanguageProperty 'ReleaseNotes'
+      Semantic ID: https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateType/ReleaseNotes
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   ├─ Property 'ReleaseInformation'
+      Semantic ID: https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateType/ReleaseInformation
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   ├─ Property 'BuildDate'
+      Semantic ID: https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateType/BuildDate
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'One'}"]
+   ├─ Property 'InstallationURI'
+      Semantic ID: https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateType/InstallationURI
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   ├─ Property 'InstallationFile'
+      Semantic ID: https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateType/InstallationFile
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   ├─ Property 'InstallerType'
+      Semantic ID: https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateType/InstallerType
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   └─ Property 'InstallationChecksum'
+      Semantic ID: https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateType/InstallationChecksum
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+└─ SubmodelElementCollection 'SoftwareNameplateInstance'
+   Semantic ID: https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateInstance
+   Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   ├─ Property 'SerialNumber'
+      Semantic ID: 0173-1#02-AAM556#002
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   ├─ Property 'InventoryTag'
+      Semantic ID: https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateInstance/InventoryTag
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   ├─ Property 'InstanceName'
+      Semantic ID: https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateInstance/InstanceName
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   ├─ Property 'InstalledVersion'
+      Semantic ID: https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateInstance/InstalledVersion
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   ├─ Property 'InstallationDate'
+      Semantic ID: https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateInstance/InstallationDate
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'One'}"]
+   ├─ Property 'InstallationPath'
+      Semantic ID: https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateInstance/InstallationPath
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   ├─ Property 'InstallationSource'
+      Semantic ID: https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateInstance/InstallationSource
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   ├─ Property 'InstalledOnArchitecture'
+      Semantic ID: https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateInstance/InstalledOnArchitecture
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   ├─ Property 'InstalledOnOS'
+      Semantic ID: https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateInstance/InstalledOnOS
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   ├─ Property 'InstalledOnHost'
+      Semantic ID: https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateInstance/InstalledOnHost
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   ├─ SubmodelElementCollection 'InstalledModules'
+      Semantic ID: https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateInstance/InstalledModules
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+      └─ Property 'InstalledModule'
+         Semantic ID: https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateInstance/InstalledModule
+         Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'OneToMany'}"]
+   ├─ SubmodelElementCollection 'ConfigurationPaths'
+      Semantic ID: https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateInstance/ConfigurationPaths
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+      └─ SubmodelElementCollection 'ConfigurationPath'
+         Semantic ID: https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateInstance/ConfigurationPath
+         Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'OneToMany'}"]
+         ├─ Property 'ConfigurationURI'
+            Semantic ID: https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateInstance/ConfigurationPath
+            Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'One'}"]
+         └─ Property 'ConfigurationType'
+            Semantic ID: https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateInstance/ConfigurationType
+            Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   ├─ Property 'SLAInformation'
+      Semantic ID: https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateInstance/SLAInformation
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToOne'}"]
+   └─ SubmodelElementCollection 'Contact'
+      Semantic ID: https://admin-shell.io/zvei/nameplate/1/0/ContactInformations/ContactInformation
+      Qualifiers: ["{'kind': 'ConceptQualifier', 'type': 'Multiplicity', 'valueType': 'xs:string', 'value': 'ZeroToMany'}"]

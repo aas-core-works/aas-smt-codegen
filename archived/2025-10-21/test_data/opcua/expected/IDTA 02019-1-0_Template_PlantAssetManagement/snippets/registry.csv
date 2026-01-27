@@ -1,0 +1,14 @@
+Semantic ID,Browse Name,Namespace
+0173-1#01-AGC973#003,PAMSpecificationSheet,https://admin-shell.io/idta/PAMSpecificationSheet/1/0
+0173-1#01-AGC974#002,DocumentHeader,https://admin-shell.io/idta/PAMSpecificationSheet/1/0
+0173-1#01-AGC975#002,GeneralInformation,https://admin-shell.io/idta/PAMSpecificationSheet/1/0
+0173-1#01-AGC979#001,CompleteSystem,https://admin-shell.io/idta/PAMSpecificationSheet/1/0
+0173-1#01-AGC980#001,StatusCondition,https://admin-shell.io/idta/PAMSpecificationSheet/1/0
+0173-1#01-AGC981#001,SubSystem,https://admin-shell.io/idta/PAMSpecificationSheet/1/0
+0173-1#01-AGC983#002,ApplicableMethod,https://admin-shell.io/idta/PAMSpecificationSheet/1/0
+https://admin-shell.io/idta/smc/methodheader/1/0,MethodHeader,https://admin-shell.io/idta/PAMSpecificationSheet/1/0
+0173-1#01-AGC984#001,StaticParameters,https://admin-shell.io/idta/PAMSpecificationSheet/1/0
+0173-1#01-AGC985#001,GeneratedSignals,https://admin-shell.io/idta/PAMSpecificationSheet/1/0
+0173-1#01-AGC986#001,RequiredInputSignals,https://admin-shell.io/idta/PAMSpecificationSheet/1/0
+173-1#02-AAW627#001,DocumentFooter,https://admin-shell.io/idta/PAMSpecificationSheet/1/0
+0173-1#01-AGC988#001,DocumentConfirmation,https://admin-shell.io/idta/PAMSpecificationSheet/1/0

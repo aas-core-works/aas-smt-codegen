@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aas-smt-codegen-dev"
+version = "0.0.1"
+description = "Develop aas-smt-codegen."
+requires-python = ">=3.10"
+
+dependencies = [
+    "black==25.1.0",
+    "mypy==1.15.0",
+    "pylint==3.3.7",
+    "coverage==7.8.1",
+    "requests==2.32.4",
+    "types-requests==2.32.4.20250913",
+]
+
+[tool.setuptools]
+packages = [
+    "tests",
+    "dev_scripts",
+    "continuous_integration",
+]
+
+# NOTE (mristin):
+# We put the configuration of mypy and pylint in separate files as it is a nightmare
+# to configure them with pyproject.toml not living in the current working directory
+# which is the repository root.

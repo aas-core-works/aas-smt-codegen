@@ -1,0 +1,109 @@
+Submodel - ID-short: 'CarbonFootprint' ID: 'https://admin-shell.io/idta/SubmodelTemplate/CarbonFootprint/0/9'
+├─ SubmodelElementCollection 'ProductCarbonFootprint'
+   Semantic ID: https://admin-shell.io/idta/CarbonFootprint/ProductCarbonFootprint/0/9
+   Qualifiers: ['ZeroToMany']
+   ├─ Property 'PCFCalculationMethod'
+      Semantic ID: 0173-1#02-ABG854#001
+      Qualifiers: ['OneToMany']
+   ├─ Property 'PCFCO2eq'
+      Semantic ID: 0173-1#02-ABG855#001
+      Qualifiers: ['One']
+   ├─ Property 'PCFReferenceValueForCalculation'
+      Semantic ID: 0173-1#02-ABG856#001
+      Qualifiers: ['One']
+   ├─ Property 'PCFQuantityOfMeasureForCalculation'
+      Semantic ID: 0173-1#02-ABG857#001
+      Qualifiers: ['One']
+   ├─ Property 'PCFLifeCyclePhase'
+      Semantic ID: 0173-1#02-ABG858#001
+      Qualifiers: ['OneToMany']
+   ├─ File 'ExplanatoryStatement'
+      Semantic ID: https://admin-shell.io/idta/CarbonFootprint/ExplanatoryStatement/1/0
+      Qualifiers: ['ZeroToOne']
+   ├─ SubmodelElementCollection 'PCFGoodsAddressHandover'
+      Semantic ID: 0173-1#02-ABI497#001
+      Qualifiers: ['One']
+      ├─ Property 'Street'
+         Semantic ID: 0173-1#02-ABH956#001
+         Qualifiers: ['ZeroToOne']
+      ├─ Property 'HouseNumber'
+         Semantic ID: 0173-1#02-ABH957#001
+         Qualifiers: ['ZeroToOne']
+      ├─ Property 'ZipCode'
+         Semantic ID: 0173-1#02-ABH958#001
+         Qualifiers: ['ZeroToOne']
+      ├─ Property 'CityTown'
+         Semantic ID: 0173-1#02-ABH959#001
+         Qualifiers: ['ZeroToOne']
+      └─ Property 'Country'
+         Semantic ID: 0173-1#02-AAO259#005
+         Qualifiers: ['ZeroToOne']
+   ├─ Property 'PublicationDate'
+      Semantic ID: https://admin-shell.io/idta/CarbonFootprint/PublicationDate/1/0
+      Qualifiers: ['One']
+   └─ Property 'ExpirationDate'
+      Semantic ID: https://admin-shell.io/idta/CarbonFootprint/ExpirationnDate/1/0
+      Qualifiers: ['ZeroToOne']
+└─ SubmodelElementCollection 'TransportCarbonFootprint'
+   Semantic ID: https://admin-shell.io/idta/CarbonFootprint/TransportCarbonFootprint/0/9
+   Qualifiers: ['ZeroToMany']
+   ├─ Property 'TCFCalculationMethod'
+      Semantic ID: 0173-1#02-ABG859#001
+      Qualifiers: ['One']
+   ├─ Property 'TCFCO2eq'
+      Semantic ID: 0173-1#02-ABG860#001
+      Qualifiers: ['One']
+   ├─ Property 'TCFReferenceValueForCalculation'
+      Semantic ID: 0173-1#02-ABG861#001
+      Qualifiers: ['One']
+   ├─ Property 'TCFQuantityOfMeasureForCalculation'
+      Semantic ID: 0173-1#02-ABG862#001
+      Qualifiers: ['One']
+   ├─ Property 'TCFProcessesForGreenhouseGasEmissionInATransportService'
+      Semantic ID: 0173-1#02-ABG863#001
+      Qualifiers: ['OneToMany']
+   ├─ File 'ExplanatoryStatement'
+      Semantic ID: https://example.com/ids/cd/3291_7022_2032_0718
+      Qualifiers: ['ZeroToOne']
+   ├─ SubmodelElementCollection 'TCFGoodsTransportAddressTakeover'
+      Semantic ID: 0173-1#02-ABI499#001
+      Qualifiers: ['One']
+      ├─ Property 'Street'
+         Semantic ID: 0173-1#02-ABH956#001
+         Qualifiers: ['ZeroToOne']
+      ├─ Property 'HouseNumber'
+         Semantic ID: 0173-1#02-ABH957#001
+         Qualifiers: ['ZeroToOne']
+      ├─ Property 'ZipCode'
+         Semantic ID: 0173-1#02-ABH958#001
+         Qualifiers: ['ZeroToOne']
+      ├─ Property 'CityTown'
+         Semantic ID: 0173-1#02-ABH959#001
+         Qualifiers: ['ZeroToOne']
+      └─ Property 'Country'
+         Semantic ID: 0173-1#02-AAO259#005
+         Qualifiers: ['ZeroToOne']
+   ├─ SubmodelElementCollection 'TCFGoodsTransportAddressHandover'
+      Semantic ID: 0173-1#02-ABI498#001
+      Qualifiers: ['One']
+      ├─ Property 'Street'
+         Semantic ID: 0173-1#02-ABH956#001
+         Qualifiers: ['ZeroToOne']
+      ├─ Property 'HouseNumber'
+         Semantic ID: 0173-1#02-ABH957#001
+         Qualifiers: ['ZeroToOne']
+      ├─ Property 'ZipCode'
+         Semantic ID: 0173-1#02-ABH958#001
+         Qualifiers: ['ZeroToOne']
+      ├─ Property 'CityTown'
+         Semantic ID: 0173-1#02-ABH959#001
+         Qualifiers: ['ZeroToOne']
+      └─ Property 'Country'
+         Semantic ID: 0173-1#02-AAO259#005
+         Qualifiers: ['ZeroToOne']
+   ├─ Property 'PublicationDate'
+      Semantic ID: https://admin-shell.io/idta/CarbonFootprint/PublicationDate/1/0
+      Qualifiers: ['One']
+   └─ Property 'ExpirationDate'
+      Semantic ID: https://admin-shell.io/idta/CarbonFootprint/ExpirationnDate/1/0
+      Qualifiers: ['ZeroToOne']
